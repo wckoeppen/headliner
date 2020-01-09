@@ -1,1 +1,26 @@
-test
+test2020-01-09 14:29:01,650 - __main__ - INFO - Retrieving the-new-york-times from newsapi.org
+2020-01-09 14:29:01,650 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 14:29:01,650 - headline_collector - INFO - requesting from 2020-01-08T00:00:00 to 2020-01-08T03:59:59
+2020-01-09 14:29:01,650 - headline_collector - INFO - page: 1
+2020-01-09 14:29:02,319 - headline_collector - INFO - collected data
+2020-01-09 14:29:02,319 - headline_collector - INFO - requesting from 2020-01-08T04:00:00 to 2020-01-08T07:59:59
+2020-01-09 14:29:02,319 - headline_collector - INFO - page: 1
+2020-01-09 14:29:02,884 - headline_collector - INFO - collected data
+2020-01-09 14:29:02,884 - headline_collector - INFO - requesting from 2020-01-08T08:00:00 to 2020-01-08T11:59:59
+2020-01-09 14:29:02,884 - headline_collector - INFO - page: 1
+2020-01-09 14:29:03,566 - headline_collector - INFO - collected data
+2020-01-09 14:29:03,566 - headline_collector - INFO - page: 2
+2020-01-09 14:29:04,258 - headline_collector - INFO - collected data
+2020-01-09 14:29:04,258 - headline_collector - INFO - requesting from 2020-01-08T12:00:00 to 2020-01-08T15:59:59
+2020-01-09 14:29:04,258 - headline_collector - INFO - page: 1
+2020-01-09 14:29:04,982 - headline_collector - INFO - collected data
+2020-01-09 14:29:04,983 - headline_collector - INFO - requesting from 2020-01-08T16:00:00 to 2020-01-08T19:59:59
+2020-01-09 14:29:04,983 - headline_collector - INFO - page: 1
+2020-01-09 14:29:05,646 - headline_collector - INFO - collected data
+2020-01-09 14:29:05,646 - headline_collector - INFO - page: 2
+2020-01-09 14:29:06,221 - headline_collector - INFO - collected data
+2020-01-09 14:29:06,221 - headline_collector - INFO - requesting from 2020-01-08T20:00:00 to 2020-01-08T23:59:59
+2020-01-09 14:29:06,221 - headline_collector - INFO - page: 1
+2020-01-09 14:29:06,943 - headline_collector - INFO - collected data
+2020-01-09 14:29:06,944 - headline_collector - INFO - page: 2
+2020-01-09 14:29:07,507 - headline_collector - INFO - collected data

@@ -5,8 +5,20 @@ import math
 from datetime import datetime, timedelta
 import pytz
 import json
+import logging
 
 load_dotenv()
+
+logging.basicConfig(
+    filename='/home/will/Projects/headliner/headliner.log',
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO
+    )
+logger = logging.getLogger(__name__)
+
+# turn off requests logging clutter
+# logging.getLogger("urllib3").setLevel(logging.WARNING)
+
 
 API_KEY = os.getenv("NEWSAPI_KEY")
 api = NewsApiClient(api_key=API_KEY)
@@ -47,12 +59,7 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
         Print out waypoints, by default False
     """
 
-    if verbose:
-        print(f"Retrieving from newsapi.org")
-        ind = "   "
-
-    if verbose:
-        print(f"Splitting into {intervals} intervals")
+    logger.info(f"Splitting into {intervals} intervals")
 
     hour_split = 24 / intervals
 
@@ -63,8 +70,7 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
         from_datehour_str = begin_date.strftime("%Y-%m-%dT%H:%M:%S")
         to_datehour_str = end_date.strftime("%Y-%m-%dT%H:%M:%S")
 
-        if verbose:
-            print(f"{ind}requesting from {from_datehour_str} to {to_datehour_str}")
+        logger.info(f"requesting from {from_datehour_str} to {to_datehour_str}")
 
         # get the first set of results for the time period and save
         # use the total_results to calculate the number of pages
@@ -74,8 +80,7 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
 
         def get_results(page=page, source=source):
 
-            if verbose:
-                print(f"{3*ind}page: ", page)
+            logger.info(f"page: {page}")
 
             results = api.get_everything(
                 from_param=begin_date.strftime("%Y-%m-%dT%H:%M:%S"),
@@ -84,6 +89,8 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
                 sources=source,  # Max 20 sources
                 page=page,
             )
+
+            logger.info("collected data")
 
             with open(
                 f"/home/will/Projects/headliner/headline-store-json/{source}-{from_datehour_str}-p{page:03}.json",
@@ -98,7 +105,7 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
         if total_results > 20:
 
             if total_results > 100:
-                print("ERROR: Too many results in this period, reduce time interval.")
+                logger.info("ERROR: Too many results in this period, reduce time interval.")
                 return False
 
             else:
@@ -108,7 +115,3 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
                     get_results(page=this_page, source=source)
 
     return True
-
-
-# top_headlines_now()
-get_source_on_date(datetime(2020, 1, 6), intervals=4, source="the-new-york-times", verbose=True)

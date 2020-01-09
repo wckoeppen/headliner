@@ -1,10 +1,17 @@
+#!/bin/sh
+
+GIT='/usr/bin/git'
+REPO_DIR='/home/will/Projects/headliner'
+
+cd ${REPO_DIR}
+
 # headlines
-git add /home/will/Projects/headliner/headline-store-json/*
-git commit -m "add yesterday's headlines"
+${GIT} add ${REPO_DIR}/headline-store-json/*
+${GIT} commit -m "add yesterday's headlines"
 
 # logs
-git add /home/will/Projects/headliner/headline.log
-git commit -m "daily log"
+${GIT} add ${REPO_DIR}/headliner.log
+${GIT} commit -m "daily log"
 
 # push
-git push
+${GIT} push origin master

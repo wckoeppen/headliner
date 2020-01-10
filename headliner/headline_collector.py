@@ -24,23 +24,23 @@ API_KEY = os.getenv("NEWSAPI_KEY")
 api = NewsApiClient(api_key=API_KEY)
 
 
-def top_headlines_now(country="us"):
-    """Get the top headlines right now.
+# def top_headlines_now(country="us"):
+#     """Get the top headlines right now.
     
-    Parameters
-    ----------
-    country : str, optional
-        [description], by default 'us'
-    """
+#     Parameters
+#     ----------
+#     country : str, optional
+#         [description], by default 'us'
+#     """
 
-    now = datetime.now(pytz.utc)
+#     now = datetime.now(pytz.utc)
 
-    results = api.get_top_headlines(country="us")
+#     results = api.get_top_headlines(country="us")
 
-    date_string = now.strftime("%Y-%m-%dT%H:%M:%S")
+#     date_string = now.strftime("%Y-%m-%dT%H:%M:%S")
 
-    with open(f"headline-store-json/{date_string}-top-headlines.json", "w") as file:
-        json.dump(results, file)
+#     with open(f"headline-store-json/{date_string}-top-headlines.json", "w") as file:
+#         json.dump(results, file)
 
 
 def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
@@ -93,7 +93,7 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
             logger.info("collected data")
 
             with open(
-                f"/home/will/Projects/headliner/headline-store-json/{source}-{from_datehour_str}-p{page:03}.json",
+                f"/home/will/Projects/headliner/datastore/raw/{source}/{source}-{from_datehour_str}-p{page:03}.json",
                 "w"
             ) as file:
                 json.dump(results, file)

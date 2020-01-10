@@ -43,7 +43,7 @@ api = NewsApiClient(api_key=API_KEY)
 #         json.dump(results, file)
 
 
-def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
+def get_source_on_date(date, source="", intervals=4):
     """Get the headlines for all articles for a source on a given day.
     
     Parameters
@@ -51,15 +51,13 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
     date : datetime
         The date requested
     source : string, optional
-        A string designating the source, by default "fox-news"
+        A string designating the source, by default ""
     interval: int, optional
         The interval, in number of hours, by which to break up the
         request. By default 6.
-    verbose : bool, optional
-        Print out waypoints, by default False
     """
 
-    logger.info(f"Splitting into {intervals} intervals")
+    logger.debug(f"Splitting into {intervals} intervals")
 
     hour_split = 24 / intervals
 
@@ -90,7 +88,7 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
                 page=page,
             )
 
-            logger.info("collected data")
+            logger.debug("collected data")
 
             with open(
                 f"/home/will/Projects/headliner/datastore/raw/{source}/{source}-{from_datehour_str}-p{page:03}.json",
@@ -105,7 +103,7 @@ def get_source_on_date(date, source="fox-news", intervals=4, verbose=False):
         if total_results > 20:
 
             if total_results > 100:
-                logger.info("ERROR: Too many results in this period, reduce time interval.")
+                logger.warning(f"{total_results} results in this period!")
                 return False
 
             else:

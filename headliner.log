@@ -24,3 +24,396 @@ test2020-01-09 14:29:01,650 - __main__ - INFO - Retrieving the-new-york-times fr
 2020-01-09 14:29:06,943 - headline_collector - INFO - collected data
 2020-01-09 14:29:06,944 - headline_collector - INFO - page: 2
 2020-01-09 14:29:07,507 - headline_collector - INFO - collected data
+2020-01-09 15:20:31,370 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:20:31,370 - headline_collector - INFO - requesting from 2019-12-27T00:00:00 to 2019-12-27T03:59:59
+2020-01-09 15:20:31,370 - headline_collector - INFO - page: 1
+2020-01-09 15:20:32,097 - headline_collector - INFO - collected data
+2020-01-09 15:20:32,097 - headline_collector - INFO - page: 2
+2020-01-09 15:20:32,638 - headline_collector - INFO - collected data
+2020-01-09 15:20:32,639 - headline_collector - INFO - requesting from 2019-12-27T04:00:00 to 2019-12-27T07:59:59
+2020-01-09 15:20:32,639 - headline_collector - INFO - page: 1
+2020-01-09 15:20:33,188 - headline_collector - INFO - collected data
+2020-01-09 15:20:33,188 - headline_collector - INFO - requesting from 2019-12-27T08:00:00 to 2019-12-27T11:59:59
+2020-01-09 15:20:33,188 - headline_collector - INFO - page: 1
+2020-01-09 15:20:33,879 - headline_collector - INFO - collected data
+2020-01-09 15:20:33,880 - headline_collector - INFO - requesting from 2019-12-27T12:00:00 to 2019-12-27T15:59:59
+2020-01-09 15:20:33,880 - headline_collector - INFO - page: 1
+2020-01-09 15:20:34,549 - headline_collector - INFO - collected data
+2020-01-09 15:20:34,550 - headline_collector - INFO - page: 2
+2020-01-09 15:20:35,261 - headline_collector - INFO - collected data
+2020-01-09 15:20:35,262 - headline_collector - INFO - requesting from 2019-12-27T16:00:00 to 2019-12-27T19:59:59
+2020-01-09 15:20:35,262 - headline_collector - INFO - page: 1
+2020-01-09 15:20:36,074 - headline_collector - INFO - collected data
+2020-01-09 15:20:36,074 - headline_collector - INFO - page: 2
+2020-01-09 15:20:36,806 - headline_collector - INFO - collected data
+2020-01-09 15:20:36,806 - headline_collector - INFO - requesting from 2019-12-27T20:00:00 to 2019-12-27T23:59:59
+2020-01-09 15:20:36,806 - headline_collector - INFO - page: 1
+2020-01-09 15:20:37,457 - headline_collector - INFO - collected data
+2020-01-09 15:20:37,458 - headline_collector - INFO - page: 2
+2020-01-09 15:20:38,026 - headline_collector - INFO - collected data
+2020-01-09 15:20:38,026 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:20:38,027 - headline_collector - INFO - requesting from 2019-12-27T00:00:00 to 2019-12-27T03:59:59
+2020-01-09 15:20:38,027 - headline_collector - INFO - page: 1
+2020-01-09 15:20:38,573 - headline_collector - INFO - collected data
+2020-01-09 15:20:38,573 - headline_collector - INFO - requesting from 2019-12-27T04:00:00 to 2019-12-27T07:59:59
+2020-01-09 15:20:38,573 - headline_collector - INFO - page: 1
+2020-01-09 15:20:39,154 - headline_collector - INFO - collected data
+2020-01-09 15:20:39,155 - headline_collector - INFO - requesting from 2019-12-27T08:00:00 to 2019-12-27T11:59:59
+2020-01-09 15:20:39,155 - headline_collector - INFO - page: 1
+2020-01-09 15:20:39,853 - headline_collector - INFO - collected data
+2020-01-09 15:20:39,854 - headline_collector - INFO - page: 2
+2020-01-09 15:20:40,438 - headline_collector - INFO - collected data
+2020-01-09 15:20:40,438 - headline_collector - INFO - requesting from 2019-12-27T12:00:00 to 2019-12-27T15:59:59
+2020-01-09 15:20:40,438 - headline_collector - INFO - page: 1
+2020-01-09 15:20:41,110 - headline_collector - INFO - collected data
+2020-01-09 15:20:41,111 - headline_collector - INFO - requesting from 2019-12-27T16:00:00 to 2019-12-27T19:59:59
+2020-01-09 15:20:41,111 - headline_collector - INFO - page: 1
+2020-01-09 15:20:41,789 - headline_collector - INFO - collected data
+2020-01-09 15:20:41,789 - headline_collector - INFO - requesting from 2019-12-27T20:00:00 to 2019-12-27T23:59:59
+2020-01-09 15:20:41,789 - headline_collector - INFO - page: 1
+2020-01-09 15:20:42,642 - headline_collector - INFO - collected data
+2020-01-09 15:23:25,833 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:23:25,833 - headline_collector - INFO - requesting from 2019-12-20T00:00:00 to 2019-12-20T03:59:59
+2020-01-09 15:23:25,833 - headline_collector - INFO - page: 1
+2020-01-09 15:23:26,559 - headline_collector - INFO - collected data
+2020-01-09 15:23:26,559 - headline_collector - INFO - page: 2
+2020-01-09 15:23:27,214 - headline_collector - INFO - collected data
+2020-01-09 15:23:27,214 - headline_collector - INFO - page: 3
+2020-01-09 15:23:27,755 - headline_collector - INFO - collected data
+2020-01-09 15:23:27,756 - headline_collector - INFO - requesting from 2019-12-20T04:00:00 to 2019-12-20T07:59:59
+2020-01-09 15:23:27,756 - headline_collector - INFO - page: 1
+2020-01-09 15:23:28,338 - headline_collector - INFO - collected data
+2020-01-09 15:23:28,338 - headline_collector - INFO - requesting from 2019-12-20T08:00:00 to 2019-12-20T11:59:59
+2020-01-09 15:23:28,338 - headline_collector - INFO - page: 1
+2020-01-09 15:23:29,005 - headline_collector - INFO - collected data
+2020-01-09 15:23:29,005 - headline_collector - INFO - requesting from 2019-12-20T12:00:00 to 2019-12-20T15:59:59
+2020-01-09 15:23:29,005 - headline_collector - INFO - page: 1
+2020-01-09 15:23:29,692 - headline_collector - INFO - collected data
+2020-01-09 15:23:29,693 - headline_collector - INFO - page: 2
+2020-01-09 15:23:30,364 - headline_collector - INFO - collected data
+2020-01-09 15:23:30,364 - headline_collector - INFO - page: 3
+2020-01-09 15:23:30,955 - headline_collector - INFO - collected data
+2020-01-09 15:23:30,956 - headline_collector - INFO - requesting from 2019-12-20T16:00:00 to 2019-12-20T19:59:59
+2020-01-09 15:23:30,956 - headline_collector - INFO - page: 1
+2020-01-09 15:23:31,621 - headline_collector - INFO - collected data
+2020-01-09 15:23:31,622 - headline_collector - INFO - page: 2
+2020-01-09 15:23:32,275 - headline_collector - INFO - collected data
+2020-01-09 15:23:32,276 - headline_collector - INFO - page: 3
+2020-01-09 15:23:32,970 - headline_collector - INFO - collected data
+2020-01-09 15:23:32,970 - headline_collector - INFO - requesting from 2019-12-20T20:00:00 to 2019-12-20T23:59:59
+2020-01-09 15:23:32,971 - headline_collector - INFO - page: 1
+2020-01-09 15:23:33,614 - headline_collector - INFO - collected data
+2020-01-09 15:23:33,614 - headline_collector - INFO - page: 2
+2020-01-09 15:23:34,292 - headline_collector - INFO - collected data
+2020-01-09 15:23:34,293 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:23:34,293 - headline_collector - INFO - requesting from 2019-12-20T00:00:00 to 2019-12-20T03:59:59
+2020-01-09 15:23:34,293 - headline_collector - INFO - page: 1
+2020-01-09 15:23:35,308 - headline_collector - INFO - collected data
+2020-01-09 15:23:35,309 - headline_collector - INFO - page: 2
+2020-01-09 15:23:35,858 - headline_collector - INFO - collected data
+2020-01-09 15:23:35,858 - headline_collector - INFO - requesting from 2019-12-20T04:00:00 to 2019-12-20T07:59:59
+2020-01-09 15:23:35,858 - headline_collector - INFO - page: 1
+2020-01-09 15:23:36,706 - headline_collector - INFO - collected data
+2020-01-09 15:23:36,706 - headline_collector - INFO - requesting from 2019-12-20T08:00:00 to 2019-12-20T11:59:59
+2020-01-09 15:23:36,706 - headline_collector - INFO - page: 1
+2020-01-09 15:23:37,403 - headline_collector - INFO - collected data
+2020-01-09 15:23:37,404 - headline_collector - INFO - page: 2
+2020-01-09 15:23:38,089 - headline_collector - INFO - collected data
+2020-01-09 15:23:38,089 - headline_collector - INFO - requesting from 2019-12-20T12:00:00 to 2019-12-20T15:59:59
+2020-01-09 15:23:38,090 - headline_collector - INFO - page: 1
+2020-01-09 15:23:38,794 - headline_collector - INFO - collected data
+2020-01-09 15:23:38,795 - headline_collector - INFO - page: 2
+2020-01-09 15:23:39,444 - headline_collector - INFO - collected data
+2020-01-09 15:23:39,445 - headline_collector - INFO - requesting from 2019-12-20T16:00:00 to 2019-12-20T19:59:59
+2020-01-09 15:23:39,445 - headline_collector - INFO - page: 1
+2020-01-09 15:23:40,166 - headline_collector - INFO - collected data
+2020-01-09 15:23:40,166 - headline_collector - INFO - page: 2
+2020-01-09 15:23:40,715 - headline_collector - INFO - collected data
+2020-01-09 15:23:40,716 - headline_collector - INFO - requesting from 2019-12-20T20:00:00 to 2019-12-20T23:59:59
+2020-01-09 15:23:40,716 - headline_collector - INFO - page: 1
+2020-01-09 15:23:41,414 - headline_collector - INFO - collected data
+2020-01-09 15:23:41,415 - headline_collector - INFO - page: 2
+2020-01-09 15:23:42,097 - headline_collector - INFO - collected data
+2020-01-09 15:23:42,098 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:23:42,098 - headline_collector - INFO - requesting from 2019-12-21T00:00:00 to 2019-12-21T03:59:59
+2020-01-09 15:23:42,098 - headline_collector - INFO - page: 1
+2020-01-09 15:23:42,782 - headline_collector - INFO - collected data
+2020-01-09 15:23:42,783 - headline_collector - INFO - requesting from 2019-12-21T04:00:00 to 2019-12-21T07:59:59
+2020-01-09 15:23:42,783 - headline_collector - INFO - page: 1
+2020-01-09 15:23:43,464 - headline_collector - INFO - collected data
+2020-01-09 15:23:43,464 - headline_collector - INFO - requesting from 2019-12-21T08:00:00 to 2019-12-21T11:59:59
+2020-01-09 15:23:43,464 - headline_collector - INFO - page: 1
+2020-01-09 15:23:44,142 - headline_collector - INFO - collected data
+2020-01-09 15:23:44,143 - headline_collector - INFO - requesting from 2019-12-21T12:00:00 to 2019-12-21T15:59:59
+2020-01-09 15:23:44,143 - headline_collector - INFO - page: 1
+2020-01-09 15:23:44,796 - headline_collector - INFO - collected data
+2020-01-09 15:23:44,797 - headline_collector - INFO - page: 2
+2020-01-09 15:23:45,349 - headline_collector - INFO - collected data
+2020-01-09 15:23:45,349 - headline_collector - INFO - requesting from 2019-12-21T16:00:00 to 2019-12-21T19:59:59
+2020-01-09 15:23:45,349 - headline_collector - INFO - page: 1
+2020-01-09 15:23:46,037 - headline_collector - INFO - collected data
+2020-01-09 15:23:46,038 - headline_collector - INFO - page: 2
+2020-01-09 15:23:46,568 - headline_collector - INFO - collected data
+2020-01-09 15:23:46,568 - headline_collector - INFO - requesting from 2019-12-21T20:00:00 to 2019-12-21T23:59:59
+2020-01-09 15:23:46,568 - headline_collector - INFO - page: 1
+2020-01-09 15:23:47,124 - headline_collector - INFO - collected data
+2020-01-09 15:23:47,125 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:23:47,125 - headline_collector - INFO - requesting from 2019-12-21T00:00:00 to 2019-12-21T03:59:59
+2020-01-09 15:23:47,125 - headline_collector - INFO - page: 1
+2020-01-09 15:23:47,809 - headline_collector - INFO - collected data
+2020-01-09 15:23:47,810 - headline_collector - INFO - requesting from 2019-12-21T04:00:00 to 2019-12-21T07:59:59
+2020-01-09 15:23:47,810 - headline_collector - INFO - page: 1
+2020-01-09 15:23:48,382 - headline_collector - INFO - collected data
+2020-01-09 15:23:48,382 - headline_collector - INFO - requesting from 2019-12-21T08:00:00 to 2019-12-21T11:59:59
+2020-01-09 15:23:48,382 - headline_collector - INFO - page: 1
+2020-01-09 15:23:49,077 - headline_collector - INFO - collected data
+2020-01-09 15:23:49,077 - headline_collector - INFO - page: 2
+2020-01-09 15:23:49,602 - headline_collector - INFO - collected data
+2020-01-09 15:23:49,603 - headline_collector - INFO - requesting from 2019-12-21T12:00:00 to 2019-12-21T15:59:59
+2020-01-09 15:23:49,603 - headline_collector - INFO - page: 1
+2020-01-09 15:23:50,289 - headline_collector - INFO - collected data
+2020-01-09 15:23:50,290 - headline_collector - INFO - requesting from 2019-12-21T16:00:00 to 2019-12-21T19:59:59
+2020-01-09 15:23:50,290 - headline_collector - INFO - page: 1
+2020-01-09 15:23:50,972 - headline_collector - INFO - collected data
+2020-01-09 15:23:50,973 - headline_collector - INFO - requesting from 2019-12-21T20:00:00 to 2019-12-21T23:59:59
+2020-01-09 15:23:50,973 - headline_collector - INFO - page: 1
+2020-01-09 15:23:51,533 - headline_collector - INFO - collected data
+2020-01-09 15:23:51,534 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:23:51,534 - headline_collector - INFO - requesting from 2019-12-22T00:00:00 to 2019-12-22T03:59:59
+2020-01-09 15:23:51,534 - headline_collector - INFO - page: 1
+2020-01-09 15:23:52,091 - headline_collector - INFO - collected data
+2020-01-09 15:23:52,091 - headline_collector - INFO - requesting from 2019-12-22T04:00:00 to 2019-12-22T07:59:59
+2020-01-09 15:23:52,092 - headline_collector - INFO - page: 1
+2020-01-09 15:23:52,640 - headline_collector - INFO - collected data
+2020-01-09 15:23:52,641 - headline_collector - INFO - requesting from 2019-12-22T08:00:00 to 2019-12-22T11:59:59
+2020-01-09 15:23:52,641 - headline_collector - INFO - page: 1
+2020-01-09 15:23:53,283 - headline_collector - INFO - collected data
+2020-01-09 15:23:53,284 - headline_collector - INFO - requesting from 2019-12-22T12:00:00 to 2019-12-22T15:59:59
+2020-01-09 15:23:53,284 - headline_collector - INFO - page: 1
+2020-01-09 15:23:53,948 - headline_collector - INFO - collected data
+2020-01-09 15:23:53,948 - headline_collector - INFO - page: 2
+2020-01-09 15:23:54,480 - headline_collector - INFO - collected data
+2020-01-09 15:23:54,481 - headline_collector - INFO - requesting from 2019-12-22T16:00:00 to 2019-12-22T19:59:59
+2020-01-09 15:23:54,481 - headline_collector - INFO - page: 1
+2020-01-09 15:23:55,148 - headline_collector - INFO - collected data
+2020-01-09 15:23:55,148 - headline_collector - INFO - page: 2
+2020-01-09 15:23:55,808 - headline_collector - INFO - collected data
+2020-01-09 15:23:55,809 - headline_collector - INFO - requesting from 2019-12-22T20:00:00 to 2019-12-22T23:59:59
+2020-01-09 15:23:55,809 - headline_collector - INFO - page: 1
+2020-01-09 15:23:56,522 - headline_collector - INFO - collected data
+2020-01-09 15:23:56,523 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:23:56,523 - headline_collector - INFO - requesting from 2019-12-22T00:00:00 to 2019-12-22T03:59:59
+2020-01-09 15:23:56,523 - headline_collector - INFO - page: 1
+2020-01-09 15:23:57,090 - headline_collector - INFO - collected data
+2020-01-09 15:23:57,090 - headline_collector - INFO - requesting from 2019-12-22T04:00:00 to 2019-12-22T07:59:59
+2020-01-09 15:23:57,090 - headline_collector - INFO - page: 1
+2020-01-09 15:23:57,641 - headline_collector - INFO - collected data
+2020-01-09 15:23:57,641 - headline_collector - INFO - requesting from 2019-12-22T08:00:00 to 2019-12-22T11:59:59
+2020-01-09 15:23:57,641 - headline_collector - INFO - page: 1
+2020-01-09 15:23:58,474 - headline_collector - INFO - collected data
+2020-01-09 15:23:58,474 - headline_collector - INFO - requesting from 2019-12-22T12:00:00 to 2019-12-22T15:59:59
+2020-01-09 15:23:58,474 - headline_collector - INFO - page: 1
+2020-01-09 15:23:59,191 - headline_collector - INFO - collected data
+2020-01-09 15:23:59,191 - headline_collector - INFO - requesting from 2019-12-22T16:00:00 to 2019-12-22T19:59:59
+2020-01-09 15:23:59,191 - headline_collector - INFO - page: 1
+2020-01-09 15:23:59,882 - headline_collector - INFO - collected data
+2020-01-09 15:23:59,883 - headline_collector - INFO - page: 2
+2020-01-09 15:24:00,454 - headline_collector - INFO - collected data
+2020-01-09 15:24:00,454 - headline_collector - INFO - requesting from 2019-12-22T20:00:00 to 2019-12-22T23:59:59
+2020-01-09 15:24:00,455 - headline_collector - INFO - page: 1
+2020-01-09 15:24:01,165 - headline_collector - INFO - collected data
+2020-01-09 15:24:01,165 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:24:01,165 - headline_collector - INFO - requesting from 2019-12-23T00:00:00 to 2019-12-23T03:59:59
+2020-01-09 15:24:01,165 - headline_collector - INFO - page: 1
+2020-01-09 15:24:01,859 - headline_collector - INFO - collected data
+2020-01-09 15:24:01,860 - headline_collector - INFO - page: 2
+2020-01-09 15:24:02,407 - headline_collector - INFO - collected data
+2020-01-09 15:24:02,407 - headline_collector - INFO - requesting from 2019-12-23T04:00:00 to 2019-12-23T07:59:59
+2020-01-09 15:24:02,407 - headline_collector - INFO - page: 1
+2020-01-09 15:24:03,103 - headline_collector - INFO - collected data
+2020-01-09 15:24:03,104 - headline_collector - INFO - requesting from 2019-12-23T08:00:00 to 2019-12-23T11:59:59
+2020-01-09 15:24:03,104 - headline_collector - INFO - page: 1
+2020-01-09 15:24:03,772 - headline_collector - INFO - collected data
+2020-01-09 15:24:03,772 - headline_collector - INFO - requesting from 2019-12-23T12:00:00 to 2019-12-23T15:59:59
+2020-01-09 15:24:03,772 - headline_collector - INFO - page: 1
+2020-01-09 15:24:04,434 - headline_collector - INFO - collected data
+2020-01-09 15:24:04,435 - headline_collector - INFO - page: 2
+2020-01-09 15:24:05,135 - headline_collector - INFO - collected data
+2020-01-09 15:24:05,136 - headline_collector - INFO - requesting from 2019-12-23T16:00:00 to 2019-12-23T19:59:59
+2020-01-09 15:24:05,136 - headline_collector - INFO - page: 1
+2020-01-09 15:24:05,842 - headline_collector - INFO - collected data
+2020-01-09 15:24:05,842 - headline_collector - INFO - page: 2
+2020-01-09 15:24:06,503 - headline_collector - INFO - collected data
+2020-01-09 15:24:06,503 - headline_collector - INFO - page: 3
+2020-01-09 15:24:07,192 - headline_collector - INFO - collected data
+2020-01-09 15:24:07,193 - headline_collector - INFO - requesting from 2019-12-23T20:00:00 to 2019-12-23T23:59:59
+2020-01-09 15:24:07,193 - headline_collector - INFO - page: 1
+2020-01-09 15:24:07,859 - headline_collector - INFO - collected data
+2020-01-09 15:24:07,859 - headline_collector - INFO - page: 2
+2020-01-09 15:24:08,560 - headline_collector - INFO - collected data
+2020-01-09 15:24:08,561 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:24:08,561 - headline_collector - INFO - requesting from 2019-12-23T00:00:00 to 2019-12-23T03:59:59
+2020-01-09 15:24:08,561 - headline_collector - INFO - page: 1
+2020-01-09 15:24:09,110 - headline_collector - INFO - collected data
+2020-01-09 15:24:09,110 - headline_collector - INFO - requesting from 2019-12-23T04:00:00 to 2019-12-23T07:59:59
+2020-01-09 15:24:09,110 - headline_collector - INFO - page: 1
+2020-01-09 15:24:09,650 - headline_collector - INFO - collected data
+2020-01-09 15:24:09,650 - headline_collector - INFO - requesting from 2019-12-23T08:00:00 to 2019-12-23T11:59:59
+2020-01-09 15:24:09,651 - headline_collector - INFO - page: 1
+2020-01-09 15:24:10,351 - headline_collector - INFO - collected data
+2020-01-09 15:24:10,351 - headline_collector - INFO - page: 2
+2020-01-09 15:24:11,043 - headline_collector - INFO - collected data
+2020-01-09 15:24:11,044 - headline_collector - INFO - requesting from 2019-12-23T12:00:00 to 2019-12-23T15:59:59
+2020-01-09 15:24:11,044 - headline_collector - INFO - page: 1
+2020-01-09 15:24:11,776 - headline_collector - INFO - collected data
+2020-01-09 15:24:11,777 - headline_collector - INFO - page: 2
+2020-01-09 15:24:12,330 - headline_collector - INFO - collected data
+2020-01-09 15:24:12,330 - headline_collector - INFO - requesting from 2019-12-23T16:00:00 to 2019-12-23T19:59:59
+2020-01-09 15:24:12,330 - headline_collector - INFO - page: 1
+2020-01-09 15:24:13,035 - headline_collector - INFO - collected data
+2020-01-09 15:24:13,036 - headline_collector - INFO - page: 2
+2020-01-09 15:24:13,604 - headline_collector - INFO - collected data
+2020-01-09 15:24:13,604 - headline_collector - INFO - requesting from 2019-12-23T20:00:00 to 2019-12-23T23:59:59
+2020-01-09 15:24:13,604 - headline_collector - INFO - page: 1
+2020-01-09 15:24:14,275 - headline_collector - INFO - collected data
+2020-01-09 15:24:14,276 - headline_collector - INFO - page: 2
+2020-01-09 15:24:14,819 - headline_collector - INFO - collected data
+2020-01-09 15:24:14,819 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:24:14,819 - headline_collector - INFO - requesting from 2019-12-24T00:00:00 to 2019-12-24T03:59:59
+2020-01-09 15:24:14,819 - headline_collector - INFO - page: 1
+2020-01-09 15:24:15,522 - headline_collector - INFO - collected data
+2020-01-09 15:24:15,523 - headline_collector - INFO - page: 2
+2020-01-09 15:24:16,216 - headline_collector - INFO - collected data
+2020-01-09 15:24:16,217 - headline_collector - INFO - requesting from 2019-12-24T04:00:00 to 2019-12-24T07:59:59
+2020-01-09 15:24:16,217 - headline_collector - INFO - page: 1
+2020-01-09 15:24:16,783 - headline_collector - INFO - collected data
+2020-01-09 15:24:16,783 - headline_collector - INFO - requesting from 2019-12-24T08:00:00 to 2019-12-24T11:59:59
+2020-01-09 15:24:16,783 - headline_collector - INFO - page: 1
+2020-01-09 15:24:17,457 - headline_collector - INFO - collected data
+2020-01-09 15:24:17,458 - headline_collector - INFO - requesting from 2019-12-24T12:00:00 to 2019-12-24T15:59:59
+2020-01-09 15:24:17,458 - headline_collector - INFO - page: 1
+2020-01-09 15:24:18,185 - headline_collector - INFO - collected data
+2020-01-09 15:24:18,186 - headline_collector - INFO - page: 2
+2020-01-09 15:24:18,847 - headline_collector - INFO - collected data
+2020-01-09 15:24:18,848 - headline_collector - INFO - page: 3
+2020-01-09 15:24:19,440 - headline_collector - INFO - collected data
+2020-01-09 15:24:19,441 - headline_collector - INFO - requesting from 2019-12-24T16:00:00 to 2019-12-24T19:59:59
+2020-01-09 15:24:19,441 - headline_collector - INFO - page: 1
+2020-01-09 15:24:20,113 - headline_collector - INFO - collected data
+2020-01-09 15:24:20,114 - headline_collector - INFO - page: 2
+2020-01-09 15:24:20,812 - headline_collector - INFO - collected data
+2020-01-09 15:24:20,813 - headline_collector - INFO - page: 3
+2020-01-09 15:24:21,505 - headline_collector - INFO - collected data
+2020-01-09 15:24:21,505 - headline_collector - INFO - requesting from 2019-12-24T20:00:00 to 2019-12-24T23:59:59
+2020-01-09 15:24:21,506 - headline_collector - INFO - page: 1
+2020-01-09 15:24:22,225 - headline_collector - INFO - collected data
+2020-01-09 15:24:22,226 - headline_collector - INFO - page: 2
+2020-01-09 15:24:22,920 - headline_collector - INFO - collected data
+2020-01-09 15:24:22,920 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:24:22,920 - headline_collector - INFO - requesting from 2019-12-24T00:00:00 to 2019-12-24T03:59:59
+2020-01-09 15:24:22,920 - headline_collector - INFO - page: 1
+2020-01-09 15:24:23,470 - headline_collector - INFO - collected data
+2020-01-09 15:24:23,470 - headline_collector - INFO - requesting from 2019-12-24T04:00:00 to 2019-12-24T07:59:59
+2020-01-09 15:24:23,470 - headline_collector - INFO - page: 1
+2020-01-09 15:24:24,040 - headline_collector - INFO - collected data
+2020-01-09 15:24:24,040 - headline_collector - INFO - requesting from 2019-12-24T08:00:00 to 2019-12-24T11:59:59
+2020-01-09 15:24:24,041 - headline_collector - INFO - page: 1
+2020-01-09 15:24:24,756 - headline_collector - INFO - collected data
+2020-01-09 15:24:24,756 - headline_collector - INFO - page: 2
+2020-01-09 15:24:25,449 - headline_collector - INFO - collected data
+2020-01-09 15:24:25,450 - headline_collector - INFO - requesting from 2019-12-24T12:00:00 to 2019-12-24T15:59:59
+2020-01-09 15:24:25,450 - headline_collector - INFO - page: 1
+2020-01-09 15:24:26,140 - headline_collector - INFO - collected data
+2020-01-09 15:24:26,140 - headline_collector - INFO - requesting from 2019-12-24T16:00:00 to 2019-12-24T19:59:59
+2020-01-09 15:24:26,140 - headline_collector - INFO - page: 1
+2020-01-09 15:24:26,840 - headline_collector - INFO - collected data
+2020-01-09 15:24:26,840 - headline_collector - INFO - page: 2
+2020-01-09 15:24:27,413 - headline_collector - INFO - collected data
+2020-01-09 15:24:27,414 - headline_collector - INFO - requesting from 2019-12-24T20:00:00 to 2019-12-24T23:59:59
+2020-01-09 15:24:27,414 - headline_collector - INFO - page: 1
+2020-01-09 15:24:28,087 - headline_collector - INFO - collected data
+2020-01-09 15:24:28,088 - headline_collector - INFO - page: 2
+2020-01-09 15:24:28,628 - headline_collector - INFO - collected data
+2020-01-09 15:24:28,628 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:24:28,628 - headline_collector - INFO - requesting from 2019-12-25T00:00:00 to 2019-12-25T03:59:59
+2020-01-09 15:24:28,628 - headline_collector - INFO - page: 1
+2020-01-09 15:24:29,309 - headline_collector - INFO - collected data
+2020-01-09 15:24:29,309 - headline_collector - INFO - requesting from 2019-12-25T04:00:00 to 2019-12-25T07:59:59
+2020-01-09 15:24:29,309 - headline_collector - INFO - page: 1
+2020-01-09 15:24:29,849 - headline_collector - INFO - collected data
+2020-01-09 15:24:29,849 - headline_collector - INFO - requesting from 2019-12-25T08:00:00 to 2019-12-25T11:59:59
+2020-01-09 15:24:29,849 - headline_collector - INFO - page: 1
+2020-01-09 15:24:30,509 - headline_collector - INFO - collected data
+2020-01-09 15:24:30,510 - headline_collector - INFO - requesting from 2019-12-25T12:00:00 to 2019-12-25T15:59:59
+2020-01-09 15:24:30,510 - headline_collector - INFO - page: 1
+2020-01-09 15:24:31,209 - headline_collector - INFO - collected data
+2020-01-09 15:24:31,210 - headline_collector - INFO - requesting from 2019-12-25T16:00:00 to 2019-12-25T19:59:59
+2020-01-09 15:24:31,210 - headline_collector - INFO - page: 1
+2020-01-09 15:24:31,866 - headline_collector - INFO - collected data
+2020-01-09 15:24:31,867 - headline_collector - INFO - requesting from 2019-12-25T20:00:00 to 2019-12-25T23:59:59
+2020-01-09 15:24:31,867 - headline_collector - INFO - page: 1
+2020-01-09 15:24:32,537 - headline_collector - INFO - collected data
+2020-01-09 15:24:32,537 - headline_collector - INFO - page: 2
+2020-01-09 15:24:33,119 - headline_collector - INFO - collected data
+2020-01-09 15:24:33,119 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:24:33,119 - headline_collector - INFO - requesting from 2019-12-25T00:00:00 to 2019-12-25T03:59:59
+2020-01-09 15:24:33,119 - headline_collector - INFO - page: 1
+2020-01-09 15:24:33,812 - headline_collector - INFO - collected data
+2020-01-09 15:24:33,813 - headline_collector - INFO - requesting from 2019-12-25T04:00:00 to 2019-12-25T07:59:59
+2020-01-09 15:24:33,813 - headline_collector - INFO - page: 1
+2020-01-09 15:24:34,345 - headline_collector - INFO - collected data
+2020-01-09 15:24:34,345 - headline_collector - INFO - requesting from 2019-12-25T08:00:00 to 2019-12-25T11:59:59
+2020-01-09 15:24:34,346 - headline_collector - INFO - page: 1
+2020-01-09 15:24:35,006 - headline_collector - INFO - collected data
+2020-01-09 15:24:35,006 - headline_collector - INFO - page: 2
+2020-01-09 15:24:35,560 - headline_collector - INFO - collected data
+2020-01-09 15:24:35,561 - headline_collector - INFO - requesting from 2019-12-25T12:00:00 to 2019-12-25T15:59:59
+2020-01-09 15:24:35,561 - headline_collector - INFO - page: 1
+2020-01-09 15:24:36,215 - headline_collector - INFO - collected data
+2020-01-09 15:24:36,215 - headline_collector - INFO - requesting from 2019-12-25T16:00:00 to 2019-12-25T19:59:59
+2020-01-09 15:24:36,216 - headline_collector - INFO - page: 1
+2020-01-09 15:24:36,901 - headline_collector - INFO - collected data
+2020-01-09 15:24:36,902 - headline_collector - INFO - requesting from 2019-12-25T20:00:00 to 2019-12-25T23:59:59
+2020-01-09 15:24:36,902 - headline_collector - INFO - page: 1
+2020-01-09 15:24:37,461 - headline_collector - INFO - collected data
+2020-01-09 15:24:37,461 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:24:37,461 - headline_collector - INFO - requesting from 2019-12-26T00:00:00 to 2019-12-26T03:59:59
+2020-01-09 15:24:37,461 - headline_collector - INFO - page: 1
+2020-01-09 15:24:38,011 - headline_collector - INFO - collected data
+2020-01-09 15:24:38,011 - headline_collector - INFO - requesting from 2019-12-26T04:00:00 to 2019-12-26T07:59:59
+2020-01-09 15:24:38,011 - headline_collector - INFO - page: 1
+2020-01-09 15:24:38,549 - headline_collector - INFO - collected data
+2020-01-09 15:24:38,549 - headline_collector - INFO - requesting from 2019-12-26T08:00:00 to 2019-12-26T11:59:59
+2020-01-09 15:24:38,549 - headline_collector - INFO - page: 1
+2020-01-09 15:24:39,236 - headline_collector - INFO - collected data
+2020-01-09 15:24:39,236 - headline_collector - INFO - requesting from 2019-12-26T12:00:00 to 2019-12-26T15:59:59
+2020-01-09 15:24:39,237 - headline_collector - INFO - page: 1
+2020-01-09 15:24:39,955 - headline_collector - INFO - collected data
+2020-01-09 15:24:39,956 - headline_collector - INFO - page: 2
+2020-01-09 15:24:40,610 - headline_collector - INFO - collected data
+2020-01-09 15:24:40,611 - headline_collector - INFO - requesting from 2019-12-26T16:00:00 to 2019-12-26T19:59:59
+2020-01-09 15:24:40,611 - headline_collector - INFO - page: 1
+2020-01-09 15:24:41,313 - headline_collector - INFO - collected data
+2020-01-09 15:24:41,314 - headline_collector - INFO - page: 2
+2020-01-09 15:24:41,962 - headline_collector - INFO - collected data
+2020-01-09 15:24:41,962 - headline_collector - INFO - requesting from 2019-12-26T20:00:00 to 2019-12-26T23:59:59
+2020-01-09 15:24:41,962 - headline_collector - INFO - page: 1
+2020-01-09 15:24:42,616 - headline_collector - INFO - collected data
+2020-01-09 15:24:42,617 - headline_collector - INFO - page: 2
+2020-01-09 15:24:43,271 - headline_collector - INFO - collected data
+2020-01-09 15:24:43,271 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-09 15:24:43,272 - headline_collector - INFO - requesting from 2019-12-26T00:00:00 to 2019-12-26T03:59:59
+2020-01-09 15:24:43,272 - headline_collector - INFO - page: 1
+2020-01-09 15:24:43,825 - headline_collector - INFO - collected data
+2020-01-09 15:24:43,825 - headline_collector - INFO - requesting from 2019-12-26T04:00:00 to 2019-12-26T07:59:59
+2020-01-09 15:24:43,825 - headline_collector - INFO - page: 1
+2020-01-09 15:24:44,356 - headline_collector - INFO - collected data
+2020-01-09 15:24:44,356 - headline_collector - INFO - requesting from 2019-12-26T08:00:00 to 2019-12-26T11:59:59
+2020-01-09 15:24:44,357 - headline_collector - INFO - page: 1
+2020-01-09 15:24:45,052 - headline_collector - INFO - collected data
+2020-01-09 15:24:45,053 - headline_collector - INFO - page: 2
+2020-01-09 15:24:45,647 - headline_collector - INFO - collected data
+2020-01-09 15:24:45,647 - headline_collector - INFO - requesting from 2019-12-26T12:00:00 to 2019-12-26T15:59:59
+2020-01-09 15:24:45,648 - headline_collector - INFO - page: 1
+2020-01-09 15:24:46,345 - headline_collector - INFO - collected data
+2020-01-09 15:24:46,346 - headline_collector - INFO - page: 2

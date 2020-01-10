@@ -25,6 +25,6 @@ def get_yesterdays_news(source):
     get_source_on_date(yesterday, intervals=6, source=source, verbose=True)
 
 
-sources = ["the-new-york-times"]
+sources = ["fox-news","the-new-york-times"]
 for src in sources:
     get_yesterdays_news(src)

@@ -417,3 +417,77 @@ test2020-01-09 14:29:01,650 - __main__ - INFO - Retrieving the-new-york-times fr
 2020-01-09 15:24:45,648 - headline_collector - INFO - page: 1
 2020-01-09 15:24:46,345 - headline_collector - INFO - collected data
 2020-01-09 15:24:46,346 - headline_collector - INFO - page: 2
+2020-01-10 06:00:01,280 - __main__ - INFO - Retrieving fox-news from newsapi.org
+2020-01-10 06:00:01,280 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-10 06:00:01,280 - headline_collector - INFO - requesting from 2020-01-09T00:00:00 to 2020-01-09T03:59:59
+2020-01-10 06:00:01,280 - headline_collector - INFO - page: 1
+2020-01-10 06:00:02,080 - headline_collector - INFO - collected data
+2020-01-10 06:00:02,081 - headline_collector - INFO - page: 2
+2020-01-10 06:00:02,869 - headline_collector - INFO - collected data
+2020-01-10 06:00:02,869 - headline_collector - INFO - page: 3
+2020-01-10 06:00:03,706 - headline_collector - INFO - collected data
+2020-01-10 06:00:03,707 - headline_collector - INFO - page: 4
+2020-01-10 06:00:04,247 - headline_collector - INFO - collected data
+2020-01-10 06:00:04,248 - headline_collector - INFO - requesting from 2020-01-09T04:00:00 to 2020-01-09T07:59:59
+2020-01-10 06:00:04,248 - headline_collector - INFO - page: 1
+2020-01-10 06:00:04,999 - headline_collector - INFO - collected data
+2020-01-10 06:00:04,999 - headline_collector - INFO - requesting from 2020-01-09T08:00:00 to 2020-01-09T11:59:59
+2020-01-10 06:00:04,999 - headline_collector - INFO - page: 1
+2020-01-10 06:00:05,809 - headline_collector - INFO - collected data
+2020-01-10 06:00:05,809 - headline_collector - INFO - requesting from 2020-01-09T12:00:00 to 2020-01-09T15:59:59
+2020-01-10 06:00:05,809 - headline_collector - INFO - page: 1
+2020-01-10 06:00:06,461 - headline_collector - INFO - collected data
+2020-01-10 06:00:06,461 - headline_collector - INFO - page: 2
+2020-01-10 06:00:07,116 - headline_collector - INFO - collected data
+2020-01-10 06:00:07,117 - headline_collector - INFO - page: 3
+2020-01-10 06:00:07,649 - headline_collector - INFO - collected data
+2020-01-10 06:00:07,649 - headline_collector - INFO - requesting from 2020-01-09T16:00:00 to 2020-01-09T19:59:59
+2020-01-10 06:00:07,649 - headline_collector - INFO - page: 1
+2020-01-10 06:00:08,351 - headline_collector - INFO - collected data
+2020-01-10 06:00:08,351 - headline_collector - INFO - page: 2
+2020-01-10 06:00:09,067 - headline_collector - INFO - collected data
+2020-01-10 06:00:09,068 - headline_collector - INFO - page: 3
+2020-01-10 06:00:09,740 - headline_collector - INFO - collected data
+2020-01-10 06:00:09,741 - headline_collector - INFO - page: 4
+2020-01-10 06:00:10,434 - headline_collector - INFO - collected data
+2020-01-10 06:00:10,434 - headline_collector - INFO - page: 5
+2020-01-10 06:00:10,970 - headline_collector - INFO - collected data
+2020-01-10 06:00:10,970 - headline_collector - INFO - requesting from 2020-01-09T20:00:00 to 2020-01-09T23:59:59
+2020-01-10 06:00:10,970 - headline_collector - INFO - page: 1
+2020-01-10 06:00:11,639 - headline_collector - INFO - collected data
+2020-01-10 06:00:11,640 - headline_collector - INFO - page: 2
+2020-01-10 06:00:12,339 - headline_collector - INFO - collected data
+2020-01-10 06:00:12,340 - headline_collector - INFO - page: 3
+2020-01-10 06:00:13,090 - headline_collector - INFO - collected data
+2020-01-10 06:00:13,091 - headline_collector - INFO - page: 4
+2020-01-10 06:00:13,956 - headline_collector - INFO - collected data
+2020-01-10 06:00:13,957 - __main__ - INFO - Retrieving the-new-york-times from newsapi.org
+2020-01-10 06:00:13,957 - headline_collector - INFO - Splitting into 6 intervals
+2020-01-10 06:00:13,957 - headline_collector - INFO - requesting from 2020-01-09T00:00:00 to 2020-01-09T03:59:59
+2020-01-10 06:00:13,957 - headline_collector - INFO - page: 1
+2020-01-10 06:00:14,613 - headline_collector - INFO - collected data
+2020-01-10 06:00:14,614 - headline_collector - INFO - page: 2
+2020-01-10 06:00:15,204 - headline_collector - INFO - collected data
+2020-01-10 06:00:15,204 - headline_collector - INFO - requesting from 2020-01-09T04:00:00 to 2020-01-09T07:59:59
+2020-01-10 06:00:15,204 - headline_collector - INFO - page: 1
+2020-01-10 06:00:15,734 - headline_collector - INFO - collected data
+2020-01-10 06:00:15,734 - headline_collector - INFO - requesting from 2020-01-09T08:00:00 to 2020-01-09T11:59:59
+2020-01-10 06:00:15,734 - headline_collector - INFO - page: 1
+2020-01-10 06:00:16,627 - headline_collector - INFO - collected data
+2020-01-10 06:00:16,628 - headline_collector - INFO - page: 2
+2020-01-10 06:00:17,284 - headline_collector - INFO - collected data
+2020-01-10 06:00:17,284 - headline_collector - INFO - requesting from 2020-01-09T12:00:00 to 2020-01-09T15:59:59
+2020-01-10 06:00:17,284 - headline_collector - INFO - page: 1
+2020-01-10 06:00:18,110 - headline_collector - INFO - collected data
+2020-01-10 06:00:18,111 - headline_collector - INFO - page: 2
+2020-01-10 06:00:18,643 - headline_collector - INFO - collected data
+2020-01-10 06:00:18,643 - headline_collector - INFO - requesting from 2020-01-09T16:00:00 to 2020-01-09T19:59:59
+2020-01-10 06:00:18,643 - headline_collector - INFO - page: 1
+2020-01-10 06:00:19,337 - headline_collector - INFO - collected data
+2020-01-10 06:00:19,337 - headline_collector - INFO - page: 2
+2020-01-10 06:00:19,891 - headline_collector - INFO - collected data
+2020-01-10 06:00:19,891 - headline_collector - INFO - requesting from 2020-01-09T20:00:00 to 2020-01-09T23:59:59
+2020-01-10 06:00:19,891 - headline_collector - INFO - page: 1
+2020-01-10 06:00:20,604 - headline_collector - INFO - collected data
+2020-01-10 06:00:20,604 - headline_collector - INFO - page: 2
+2020-01-10 06:00:21,244 - headline_collector - INFO - collected data

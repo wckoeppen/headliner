@@ -1,7 +1,7 @@
 #!/home/will/anaconda3/envs/headliner/bin/python
 from datetime import datetime, timedelta
 import logging
-from headline_collector import get_source_on_date
+from headline_collector import get_source_on_date, process_source_on_date
 
 
 logging.basicConfig(
@@ -14,16 +14,10 @@ logger = logging.getLogger(__name__)
 today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
 yesterday = today - timedelta(days=1)
 
-# logger.debug('This message should go to the log file')
-# logger.warning('And this, too')
-
-# logger.info('Hello')
-# logger.info("Running at: " + datetime.now().strftime("%y-%m-%dT%H:%M:%S\n"))
-
 def get_yesterdays_news(source):
     logger.info(f"Retrieving {source} from newsapi.org")
-    get_source_on_date(yesterday, intervals=6, source=source, verbose=True)
-
+    get_source_on_date(yesterday, intervals=6, source=source)
+    process_source_on_date(yesterday, source=source)
 
 sources = ["fox-news","the-new-york-times"]
 for src in sources:

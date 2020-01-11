@@ -957,3 +957,5 @@ test2020-01-09 14:29:01,650 - __main__ - INFO - Retrieving the-new-york-times fr
 2020-01-11 00:10:29,939 - headline_collector - INFO - page: 3
 2020-01-11 00:10:30,605 - headline_collector - INFO - requesting from 2019-12-10T00:00:00 to 2019-12-10T03:59:59
 2020-01-11 00:10:30,605 - headline_collector - INFO - page: 1
+2020-01-11 12:05:01,976 - headline_collector - INFO - requesting from 2019-12-10T00:00:00 to 2019-12-10T03:59:59
+2020-01-11 12:05:01,977 - headline_collector - INFO - page: 1

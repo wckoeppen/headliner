@@ -993,3 +993,24 @@ test2020-01-09 14:29:01,650 - __main__ - INFO - Retrieving the-new-york-times fr
 2020-01-12 00:10:01,412 - headline_collector - INFO - page: 1
 2020-01-12 12:05:02,184 - headline_collector - INFO - requesting from 2019-12-10T00:00:00 to 2019-12-10T03:59:59
 2020-01-12 12:05:02,184 - headline_collector - INFO - page: 1
+2020-01-13 00:05:01,690 - __main__ - INFO - Retrieving fox-news from newsapi.org
+2020-01-13 00:05:01,690 - headline_collector - INFO - requesting from 2020-01-12T00:00:00 to 2020-01-12T03:59:59
+2020-01-13 00:05:01,690 - headline_collector - INFO - page: 1
+2020-01-13 00:05:02,260 - headline_collector - INFO - requesting from 2020-01-12T04:00:00 to 2020-01-12T07:59:59
+2020-01-13 00:05:02,261 - headline_collector - INFO - page: 1
+2020-01-13 00:05:02,852 - headline_collector - INFO - requesting from 2020-01-12T08:00:00 to 2020-01-12T11:59:59
+2020-01-13 00:05:02,852 - headline_collector - INFO - page: 1
+2020-01-13 00:05:03,651 - headline_collector - INFO - requesting from 2020-01-12T12:00:00 to 2020-01-12T15:59:59
+2020-01-13 00:05:03,651 - headline_collector - INFO - page: 1
+2020-01-13 00:05:04,338 - headline_collector - INFO - page: 2
+2020-01-13 00:05:04,993 - headline_collector - INFO - requesting from 2020-01-12T16:00:00 to 2020-01-12T19:59:59
+2020-01-13 00:05:04,993 - headline_collector - INFO - page: 1
+2020-01-13 00:05:05,687 - headline_collector - INFO - page: 2
+2020-01-13 00:05:06,379 - headline_collector - INFO - requesting from 2020-01-12T20:00:00 to 2020-01-12T23:59:59
+2020-01-13 00:05:06,379 - headline_collector - INFO - page: 1
+2020-01-13 00:05:07,064 - headline_collector - INFO - page: 2
+2020-01-13 00:05:07,664 - __main__ - INFO - Retrieving the-new-york-times from newsapi.org
+2020-01-13 00:05:07,664 - headline_collector - INFO - requesting from 2020-01-12T00:00:00 to 2020-01-12T03:59:59
+2020-01-13 00:05:07,664 - headline_collector - INFO - page: 1
+2020-01-13 00:10:01,584 - headline_collector - INFO - requesting from 2019-12-10T00:00:00 to 2019-12-10T03:59:59
+2020-01-13 00:10:01,584 - headline_collector - INFO - page: 1

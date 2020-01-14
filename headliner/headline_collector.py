@@ -14,38 +14,18 @@ load_dotenv()
 logging.basicConfig(
     filename='/home/will/Projects/headliner/headliner.log',
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    level=logging.INFO
+    level=logging.DEBUG
     )
 logger = logging.getLogger(__name__)
 
 # turn off requests logging clutter
-# logging.getLogger("urllib3").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
 API_KEY = os.getenv("NEWSAPI_KEY")
 api = NewsApiClient(api_key=API_KEY)
 
-
-# def top_headlines_now(country="us"):
-#     """Get the top headlines right now.
-    
-#     Parameters
-#     ----------
-#     country : str, optional
-#         [description], by default 'us'
-#     """
-
-#     now = datetime.now(pytz.utc)
-
-#     results = api.get_top_headlines(country="us")
-
-#     date_string = now.strftime("%Y-%m-%dT%H:%M:%S")
-
-#     with open(f"headline-store-json/{date_string}-top-headlines.json", "w") as file:
-#         json.dump(results, file)
-
-
-def get_source_on_date(date, source="", intervals=4):
+def get_newsapi_on_date(date, source="", intervals=4):
     """Get the headlines for all articles for a source on a given day.
     
     Parameters
@@ -59,6 +39,7 @@ def get_source_on_date(date, source="", intervals=4):
         request. By default 6.
     """
 
+    logger.info(f"Retrieving {source} from newsapi.org")
     logger.debug(f"Splitting into {intervals} intervals")
 
     hour_split = 24 / intervals
@@ -80,7 +61,7 @@ def get_source_on_date(date, source="", intervals=4):
 
         def get_results(page=page, source=source):
 
-            logger.info(f"page: {page}")
+            logger.debug(f"page: {page}")
 
             results = api.get_everything(
                 from_param=begin_date.strftime("%Y-%m-%dT%H:%M:%S"),
@@ -113,51 +94,5 @@ def get_source_on_date(date, source="", intervals=4):
 
                 for this_page in range(page + 1, n_pages + 1):
                     get_results(page=this_page, source=source)
-
-    return True
-
-
-def find_files(base_dir, begin_date, end_date):
-
-    n_days = int((end_date - begin_date).total_seconds()/60/60/24)
-    date_list = [begin_date + timedelta(days=x) for x in range(n_days+1)]
-    
-    search_strs = []
-    
-    for date in date_list:
-        search_strs.append(date.strftime('%Y-%m-%d'))
-
-    filenames=[]
-
-    for search_str in search_strs:
-        
-        filenames += sorted(glob.glob(os.path.join(base_dir, '*' + search_str + '*.json')))
-        
-    return filenames
-
-
-def process_source_on_date(date, source=""):
-
-    source_dir = f"/home/will/Projects/headliner/datastore/raw/{source}/"
-    out_dir = f"/home/will/Projects/headliner/datastore/processed/{source}/"
-
-    filenames = find_files(source_dir, date, date)
-
-    def concat_files(file_list):
-
-        results = []
-
-        for filename in filenames:
-            with open(filename, "r") as file:
-                to_add = json.load(file)
-                to_add = pd.io.json.json_normalize(to_add['articles'])
-            
-            results.append(to_add)
-
-        return pd.concat(results, ignore_index=True)
-
-    concatted = concat_files(filenames)
-
-    concatted.to_csv(os.path.join(out_dir, f"{source}-{date.strftime('%y-%m-%d')}.csv"), index=False)
 
     return True

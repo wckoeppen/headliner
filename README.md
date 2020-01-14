@@ -12,3 +12,12 @@ NewsAPI specifically says that the API is throttled by requests, not results. I.
 - Also undocumented until you get the error: "Developer accounts are limited to 500 requests over a 24 hour period (250 requests available every 12 hours)."
 
 Of course all these mean more requests. With 500 requests per day, in theory you could pull a max of 10,000 results per day, though we will lose a lot in the partially filled pagination.
+- Lastly, with the free version, you can only request data from the past month. Ouch.
+
+## NYT API
+On the third day of successfully pulling New York Times headlines from newsAPI.org, that source was dropped from the newsapi results. So now you have to use https://developer.nytimes.com/apis
+
+## Comparing bias
+https://www.adfontesmedia.com/interactive-media-bias-chart/ - the first google hit is a media company. Weird? But they list AP and Reuters as the most reliable with least bias. They list The New York times as skews left, and InfoWars as Hyper-Partisan Right. The Hill comes up in the center, somewhat surprisingly. Fox News on the right is the equivalent of MSNBC on the left
+https://www.allsides.com/media-bias/media-bias-chart - they smartly split the opinion sections from the online news orgs. They have NPR, Reuters, and Ap as the center
+https://sharylattkisson.com/2019/04/media-bias-chart-analysis/ - Sharyl Attkisson says the APO is to the left as much as Fox News is to the right. Meanwhile she labels The New York Times as far left along with NPR, with InfoWars as mid-right. She labels Snopes as mid left. Her commenters say things like "I view InfoWars as further left." Amazing. I'd label this as unreliable.

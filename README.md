@@ -14,6 +14,9 @@ NewsAPI specifically says that the API is throttled by requests, not results. I.
 Of course all these mean more requests. With 500 requests per day, in theory you could pull a max of 10,000 results per day, though we will lose a lot in the partially filled pagination.
 - Lastly, with the free version, you can only request data from the past month. Ouch.
 
+### Issues
+- Some of the content fields, particularly in The Washington Post, contain newlines. And sometimes more than one (e.g., they include the header which has a newline on either side). This messes with the CSVs. Maybe get around this by quoting those fields?
+
 ## NYT API
 On the third day of successfully pulling New York Times headlines from newsAPI.org, that source was dropped from the newsapi results. The last day they produced was January 11, 2020. So now you have to use https://developer.nytimes.com/apis
 

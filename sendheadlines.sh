@@ -6,7 +6,7 @@ REPO_DIR='/home/will/Projects/headliner'
 cd ${REPO_DIR}
 
 # headlines
-${GIT} add ${REPO_DIR}/datastore/*
+${GIT} add ${REPO_DIR}/datastore/processed/*
 ${GIT} commit -m "add yesterday's headlines"
 
 # logs

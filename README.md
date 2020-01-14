@@ -15,7 +15,18 @@ Of course all these mean more requests. With 500 requests per day, in theory you
 - Lastly, with the free version, you can only request data from the past month. Ouch.
 
 ## NYT API
-On the third day of successfully pulling New York Times headlines from newsAPI.org, that source was dropped from the newsapi results. So now you have to use https://developer.nytimes.com/apis
+On the third day of successfully pulling New York Times headlines from newsAPI.org, that source was dropped from the newsapi results. The last day they produced was January 11, 2020. So now you have to use https://developer.nytimes.com/apis
+
+### real-time feed
+This provides a feed of all the current articles of the current day.
+
+### archive
+https://api.nytimes.com/svc/search/v2/articlesearch.json?&begin_date=20120101&end_date=20120101&api-key=your-api-key
+https://api.nytimes.com/svc/search/v2/articlesearch.json?&begin_date=20200110&end_date=20200111&api-key=your-api-key
+
+- Date search of the archive from recent articles only seems to produce results from AP and Reuters. I can see articles from NYT authors from earlier.
+- Sometimes the source is listed as "The New York Times" and other times it says "New York Times"
+- Bylines have different formats. "By AUTHOR". Can this be true?
 
 ## Comparing bias
 https://www.adfontesmedia.com/interactive-media-bias-chart/ - the first google hit is a media company. Weird? But they list AP and Reuters as the most reliable with least bias. They list The New York times as skews left, and InfoWars as Hyper-Partisan Right. The Hill comes up in the center, somewhat surprisingly. Fox News on the right is the equivalent of MSNBC on the left

@@ -960,3 +960,656 @@
 2020-01-14 12:05:02,086 - headline_collector - DEBUG - Splitting into 8 intervals
 2020-01-14 12:05:02,087 - headline_collector - INFO - requesting from 2020-01-01T00:00:00 to 2020-01-01T02:59:59
 2020-01-14 12:05:02,087 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:02,421 - __main__ - INFO - Retrieving fox-news from newsapi.org
+2020-01-15 00:05:02,421 - headline_collector - INFO - Retrieving fox-news from newsapi.org
+2020-01-15 00:05:02,421 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:05:02,421 - headline_collector - INFO - requesting from 2020-01-14T00:00:00 to 2020-01-14T02:59:59
+2020-01-15 00:05:02,421 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:03,111 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:03,112 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:03,787 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:03,787 - headline_collector - INFO - requesting from 2020-01-14T03:00:00 to 2020-01-14T05:59:59
+2020-01-15 00:05:03,788 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:04,578 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:04,579 - headline_collector - INFO - requesting from 2020-01-14T06:00:00 to 2020-01-14T08:59:59
+2020-01-15 00:05:04,579 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:05,168 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:05,169 - headline_collector - INFO - requesting from 2020-01-14T09:00:00 to 2020-01-14T11:59:59
+2020-01-15 00:05:05,169 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:06,027 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:06,028 - headline_collector - INFO - requesting from 2020-01-14T12:00:00 to 2020-01-14T14:59:59
+2020-01-15 00:05:06,028 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:06,709 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:06,710 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:07,252 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:07,253 - headline_collector - INFO - requesting from 2020-01-14T15:00:00 to 2020-01-14T17:59:59
+2020-01-15 00:05:07,253 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:07,942 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:07,942 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:08,634 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:08,635 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:09,241 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:09,242 - headline_collector - INFO - requesting from 2020-01-14T18:00:00 to 2020-01-14T20:59:59
+2020-01-15 00:05:09,242 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:09,930 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:09,931 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:10,586 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:10,587 - headline_collector - INFO - requesting from 2020-01-14T21:00:00 to 2020-01-14T23:59:59
+2020-01-15 00:05:10,587 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:11,317 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:11,317 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:11,982 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:11,983 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:12,533 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:12,560 - __main__ - INFO - Retrieving msnbc from newsapi.org
+2020-01-15 00:05:12,560 - headline_collector - INFO - Retrieving msnbc from newsapi.org
+2020-01-15 00:05:12,560 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:05:12,560 - headline_collector - INFO - requesting from 2020-01-14T00:00:00 to 2020-01-14T02:59:59
+2020-01-15 00:05:12,560 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:13,133 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:13,133 - headline_collector - INFO - requesting from 2020-01-14T03:00:00 to 2020-01-14T05:59:59
+2020-01-15 00:05:13,133 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:13,808 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:13,809 - headline_collector - INFO - requesting from 2020-01-14T06:00:00 to 2020-01-14T08:59:59
+2020-01-15 00:05:13,809 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:14,362 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:14,363 - headline_collector - INFO - requesting from 2020-01-14T09:00:00 to 2020-01-14T11:59:59
+2020-01-15 00:05:14,363 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:14,943 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:14,943 - headline_collector - INFO - requesting from 2020-01-14T12:00:00 to 2020-01-14T14:59:59
+2020-01-15 00:05:14,943 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:15,505 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:15,505 - headline_collector - INFO - requesting from 2020-01-14T15:00:00 to 2020-01-14T17:59:59
+2020-01-15 00:05:15,505 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:16,223 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:16,223 - headline_collector - INFO - requesting from 2020-01-14T18:00:00 to 2020-01-14T20:59:59
+2020-01-15 00:05:16,223 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:16,777 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:16,778 - headline_collector - INFO - requesting from 2020-01-14T21:00:00 to 2020-01-14T23:59:59
+2020-01-15 00:05:16,778 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:17,462 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:17,473 - __main__ - INFO - Retrieving abc-news from newsapi.org
+2020-01-15 00:05:17,473 - headline_collector - INFO - Retrieving abc-news from newsapi.org
+2020-01-15 00:05:17,473 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:05:17,473 - headline_collector - INFO - requesting from 2020-01-14T00:00:00 to 2020-01-14T02:59:59
+2020-01-15 00:05:17,473 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:18,297 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:18,298 - headline_collector - INFO - requesting from 2020-01-14T03:00:00 to 2020-01-14T05:59:59
+2020-01-15 00:05:18,298 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:18,834 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:18,835 - headline_collector - INFO - requesting from 2020-01-14T06:00:00 to 2020-01-14T08:59:59
+2020-01-15 00:05:18,835 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:19,515 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:19,516 - headline_collector - INFO - requesting from 2020-01-14T09:00:00 to 2020-01-14T11:59:59
+2020-01-15 00:05:19,516 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:20,277 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:20,279 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:20,864 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:20,865 - headline_collector - INFO - requesting from 2020-01-14T12:00:00 to 2020-01-14T14:59:59
+2020-01-15 00:05:20,865 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:21,517 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:21,517 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:22,226 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:22,227 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:22,809 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:22,810 - headline_collector - INFO - requesting from 2020-01-14T15:00:00 to 2020-01-14T17:59:59
+2020-01-15 00:05:22,810 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:23,506 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:23,506 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:24,180 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:24,180 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:24,703 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:24,703 - headline_collector - INFO - requesting from 2020-01-14T18:00:00 to 2020-01-14T20:59:59
+2020-01-15 00:05:24,703 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:25,413 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:25,414 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:26,054 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:26,055 - headline_collector - INFO - requesting from 2020-01-14T21:00:00 to 2020-01-14T23:59:59
+2020-01-15 00:05:26,055 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:26,701 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:26,702 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:27,522 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:27,523 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:28,065 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:28,099 - __main__ - INFO - Retrieving the-washington-post from newsapi.org
+2020-01-15 00:05:28,100 - headline_collector - INFO - Retrieving the-washington-post from newsapi.org
+2020-01-15 00:05:28,100 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:05:28,100 - headline_collector - INFO - requesting from 2020-01-14T00:00:00 to 2020-01-14T02:59:59
+2020-01-15 00:05:28,100 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:28,765 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:28,766 - headline_collector - INFO - requesting from 2020-01-14T03:00:00 to 2020-01-14T05:59:59
+2020-01-15 00:05:28,766 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:29,313 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:29,313 - headline_collector - INFO - requesting from 2020-01-14T06:00:00 to 2020-01-14T08:59:59
+2020-01-15 00:05:29,313 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:29,995 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:29,996 - headline_collector - INFO - requesting from 2020-01-14T09:00:00 to 2020-01-14T11:59:59
+2020-01-15 00:05:29,996 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:30,673 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:30,674 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:31,214 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:31,214 - headline_collector - INFO - requesting from 2020-01-14T12:00:00 to 2020-01-14T14:59:59
+2020-01-15 00:05:31,214 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:31,908 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:31,908 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:32,552 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:32,553 - headline_collector - INFO - requesting from 2020-01-14T15:00:00 to 2020-01-14T17:59:59
+2020-01-15 00:05:32,553 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:33,240 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:33,241 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:33,771 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:33,772 - headline_collector - INFO - requesting from 2020-01-14T18:00:00 to 2020-01-14T20:59:59
+2020-01-15 00:05:33,772 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:34,489 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:34,490 - headline_collector - INFO - requesting from 2020-01-14T21:00:00 to 2020-01-14T23:59:59
+2020-01-15 00:05:34,490 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:35,150 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:35,168 - __main__ - INFO - Retrieving reuters from newsapi.org
+2020-01-15 00:05:35,168 - headline_collector - INFO - Retrieving reuters from newsapi.org
+2020-01-15 00:05:35,168 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:05:35,168 - headline_collector - INFO - requesting from 2020-01-14T00:00:00 to 2020-01-14T02:59:59
+2020-01-15 00:05:35,168 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:35,853 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:35,854 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:36,569 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:36,569 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:37,234 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:37,234 - headline_collector - INFO - requesting from 2020-01-14T03:00:00 to 2020-01-14T05:59:59
+2020-01-15 00:05:37,234 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:37,900 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:37,901 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:38,566 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:38,567 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:39,248 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:39,249 - headline_collector - DEBUG - page: 4
+2020-01-15 00:05:39,780 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:39,780 - headline_collector - INFO - requesting from 2020-01-14T06:00:00 to 2020-01-14T08:59:59
+2020-01-15 00:05:39,780 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:40,469 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:40,469 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:41,158 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:41,158 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:41,815 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:41,816 - headline_collector - DEBUG - page: 4
+2020-01-15 00:05:42,488 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:42,489 - headline_collector - DEBUG - page: 5
+2020-01-15 00:05:43,048 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:43,048 - headline_collector - INFO - requesting from 2020-01-14T09:00:00 to 2020-01-14T11:59:59
+2020-01-15 00:05:43,048 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:43,876 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:43,877 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:44,528 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:44,529 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:45,347 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:45,347 - headline_collector - DEBUG - page: 4
+2020-01-15 00:05:46,022 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:46,023 - headline_collector - DEBUG - page: 5
+2020-01-15 00:05:46,681 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:46,682 - headline_collector - INFO - requesting from 2020-01-14T12:00:00 to 2020-01-14T14:59:59
+2020-01-15 00:05:46,682 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:47,541 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:47,542 - headline_collector - WARNING - 117 results in this period!
+2020-01-15 00:05:47,572 - __main__ - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:05:47,572 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:05:47,572 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:05:47,572 - headline_collector - INFO - requesting from 2020-01-14T00:00:00 to 2020-01-14T02:59:59
+2020-01-15 00:05:47,572 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:48,217 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:48,218 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:48,886 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:48,886 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:49,564 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:49,564 - headline_collector - INFO - requesting from 2020-01-14T03:00:00 to 2020-01-14T05:59:59
+2020-01-15 00:05:49,564 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:50,206 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:50,206 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:50,867 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:50,868 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:51,418 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:51,419 - headline_collector - INFO - requesting from 2020-01-14T06:00:00 to 2020-01-14T08:59:59
+2020-01-15 00:05:51,419 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:52,093 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:52,093 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:52,736 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:52,737 - headline_collector - INFO - requesting from 2020-01-14T09:00:00 to 2020-01-14T11:59:59
+2020-01-15 00:05:52,737 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:53,382 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:53,383 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:54,052 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:54,053 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:54,624 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:54,624 - headline_collector - INFO - requesting from 2020-01-14T12:00:00 to 2020-01-14T14:59:59
+2020-01-15 00:05:54,624 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:55,266 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:55,266 - headline_collector - DEBUG - page: 2
+2020-01-15 00:05:55,924 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:55,924 - headline_collector - DEBUG - page: 3
+2020-01-15 00:05:56,569 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:56,570 - headline_collector - DEBUG - page: 4
+2020-01-15 00:05:57,214 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:57,214 - headline_collector - DEBUG - page: 5
+2020-01-15 00:05:57,737 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:57,738 - headline_collector - INFO - requesting from 2020-01-14T15:00:00 to 2020-01-14T17:59:59
+2020-01-15 00:05:57,738 - headline_collector - DEBUG - page: 1
+2020-01-15 00:05:58,412 - headline_collector - DEBUG - collected data
+2020-01-15 00:05:58,413 - headline_collector - WARNING - 110 results in this period!
+2020-01-15 00:10:01,806 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:10:01,807 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:10:01,807 - headline_collector - INFO - requesting from 2020-01-01T00:00:00 to 2020-01-01T02:59:59
+2020-01-15 00:10:01,807 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:02,468 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:02,469 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:03,480 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:03,481 - headline_collector - INFO - requesting from 2020-01-01T03:00:00 to 2020-01-01T05:59:59
+2020-01-15 00:10:03,481 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:04,137 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:04,138 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:04,811 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:04,811 - headline_collector - INFO - requesting from 2020-01-01T06:00:00 to 2020-01-01T08:59:59
+2020-01-15 00:10:04,811 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:05,603 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:05,604 - headline_collector - INFO - requesting from 2020-01-01T09:00:00 to 2020-01-01T11:59:59
+2020-01-15 00:10:05,604 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:06,264 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:06,265 - headline_collector - INFO - requesting from 2020-01-01T12:00:00 to 2020-01-01T14:59:59
+2020-01-15 00:10:06,265 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:06,929 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:06,930 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:07,582 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:07,583 - headline_collector - INFO - requesting from 2020-01-01T15:00:00 to 2020-01-01T17:59:59
+2020-01-15 00:10:07,583 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:08,241 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:08,242 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:08,937 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:08,938 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:09,598 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:09,598 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:10,258 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:10,259 - headline_collector - DEBUG - page: 5
+2020-01-15 00:10:10,902 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:10,903 - headline_collector - INFO - requesting from 2020-01-01T18:00:00 to 2020-01-01T20:59:59
+2020-01-15 00:10:10,903 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:11,725 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:11,725 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:12,390 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:12,391 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:13,097 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:13,098 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:13,680 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:13,681 - headline_collector - INFO - requesting from 2020-01-01T21:00:00 to 2020-01-01T23:59:59
+2020-01-15 00:10:13,681 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:14,338 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:14,338 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:15,034 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:15,035 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:15,574 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:15,608 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:10:15,608 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:10:15,608 - headline_collector - INFO - requesting from 2020-01-02T00:00:00 to 2020-01-02T02:59:59
+2020-01-15 00:10:15,608 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:16,336 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:16,336 - headline_collector - INFO - requesting from 2020-01-02T03:00:00 to 2020-01-02T05:59:59
+2020-01-15 00:10:16,336 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:17,014 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:17,015 - headline_collector - INFO - requesting from 2020-01-02T06:00:00 to 2020-01-02T08:59:59
+2020-01-15 00:10:17,015 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:17,718 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:17,719 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:18,345 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:18,346 - headline_collector - INFO - requesting from 2020-01-02T09:00:00 to 2020-01-02T11:59:59
+2020-01-15 00:10:18,346 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:19,017 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:19,018 - headline_collector - INFO - requesting from 2020-01-02T12:00:00 to 2020-01-02T14:59:59
+2020-01-15 00:10:19,018 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:19,748 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:19,749 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:20,434 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:20,435 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:21,157 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:21,158 - headline_collector - INFO - requesting from 2020-01-02T15:00:00 to 2020-01-02T17:59:59
+2020-01-15 00:10:21,158 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:21,809 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:21,810 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:22,499 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:22,499 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:23,187 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:23,188 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:23,920 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:23,921 - headline_collector - DEBUG - page: 5
+2020-01-15 00:10:24,492 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:24,493 - headline_collector - INFO - requesting from 2020-01-02T18:00:00 to 2020-01-02T20:59:59
+2020-01-15 00:10:24,493 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:25,169 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:25,170 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:25,846 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:25,847 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:26,561 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:26,561 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:27,240 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:27,241 - headline_collector - DEBUG - page: 5
+2020-01-15 00:10:27,768 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:27,768 - headline_collector - INFO - requesting from 2020-01-02T21:00:00 to 2020-01-02T23:59:59
+2020-01-15 00:10:27,768 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:28,414 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:28,414 - headline_collector - WARNING - 116 results in this period!
+2020-01-15 00:10:28,457 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:10:28,457 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:10:28,457 - headline_collector - INFO - requesting from 2020-01-03T00:00:00 to 2020-01-03T02:59:59
+2020-01-15 00:10:28,457 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:29,113 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:29,114 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:29,816 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:29,817 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:30,576 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:30,577 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:31,275 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:31,275 - headline_collector - INFO - requesting from 2020-01-03T03:00:00 to 2020-01-03T05:59:59
+2020-01-15 00:10:31,275 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:31,910 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:31,911 - headline_collector - WARNING - 103 results in this period!
+2020-01-15 00:10:31,920 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:10:31,920 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:10:31,920 - headline_collector - INFO - requesting from 2020-01-04T00:00:00 to 2020-01-04T02:59:59
+2020-01-15 00:10:31,920 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:32,562 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:32,563 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:33,248 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:33,249 - headline_collector - INFO - requesting from 2020-01-04T03:00:00 to 2020-01-04T05:59:59
+2020-01-15 00:10:33,249 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:34,123 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:34,124 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:34,805 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:34,806 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:35,330 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:35,331 - headline_collector - INFO - requesting from 2020-01-04T06:00:00 to 2020-01-04T08:59:59
+2020-01-15 00:10:35,331 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:36,017 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:36,018 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:36,584 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:36,585 - headline_collector - INFO - requesting from 2020-01-04T09:00:00 to 2020-01-04T11:59:59
+2020-01-15 00:10:36,585 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:37,172 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:37,172 - headline_collector - INFO - requesting from 2020-01-04T12:00:00 to 2020-01-04T14:59:59
+2020-01-15 00:10:37,172 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:37,824 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:37,825 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:38,473 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:38,474 - headline_collector - INFO - requesting from 2020-01-04T15:00:00 to 2020-01-04T17:59:59
+2020-01-15 00:10:38,474 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:39,123 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:39,124 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:39,780 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:39,780 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:40,459 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:40,460 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:41,144 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:41,145 - headline_collector - INFO - requesting from 2020-01-04T18:00:00 to 2020-01-04T20:59:59
+2020-01-15 00:10:41,145 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:41,839 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:41,840 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:42,520 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:42,521 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:43,199 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:43,200 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:43,914 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:43,914 - headline_collector - INFO - requesting from 2020-01-04T21:00:00 to 2020-01-04T23:59:59
+2020-01-15 00:10:43,914 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:44,567 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:44,568 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:45,251 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:45,252 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:45,931 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:45,932 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:46,581 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:46,581 - headline_collector - DEBUG - page: 5
+2020-01-15 00:10:47,164 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:47,202 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:10:47,202 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:10:47,202 - headline_collector - INFO - requesting from 2020-01-05T00:00:00 to 2020-01-05T02:59:59
+2020-01-15 00:10:47,202 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:47,881 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:47,882 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:48,539 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:48,540 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:49,192 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:49,193 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:49,862 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:49,863 - headline_collector - INFO - requesting from 2020-01-05T03:00:00 to 2020-01-05T05:59:59
+2020-01-15 00:10:49,863 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:50,565 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:50,565 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:51,248 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:51,248 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:51,900 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:51,901 - headline_collector - INFO - requesting from 2020-01-05T06:00:00 to 2020-01-05T08:59:59
+2020-01-15 00:10:51,901 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:52,552 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:52,553 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:53,118 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:53,118 - headline_collector - INFO - requesting from 2020-01-05T09:00:00 to 2020-01-05T11:59:59
+2020-01-15 00:10:53,118 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:53,798 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:53,799 - headline_collector - INFO - requesting from 2020-01-05T12:00:00 to 2020-01-05T14:59:59
+2020-01-15 00:10:53,799 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:54,511 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:54,512 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:55,074 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:55,074 - headline_collector - INFO - requesting from 2020-01-05T15:00:00 to 2020-01-05T17:59:59
+2020-01-15 00:10:55,074 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:55,726 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:55,726 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:56,368 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:56,368 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:57,060 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:57,061 - headline_collector - DEBUG - page: 4
+2020-01-15 00:10:57,699 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:57,700 - headline_collector - INFO - requesting from 2020-01-05T18:00:00 to 2020-01-05T20:59:59
+2020-01-15 00:10:57,700 - headline_collector - DEBUG - page: 1
+2020-01-15 00:10:58,341 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:58,342 - headline_collector - DEBUG - page: 2
+2020-01-15 00:10:59,025 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:59,026 - headline_collector - DEBUG - page: 3
+2020-01-15 00:10:59,714 - headline_collector - DEBUG - collected data
+2020-01-15 00:10:59,715 - headline_collector - DEBUG - page: 4
+2020-01-15 00:11:00,262 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:00,262 - headline_collector - INFO - requesting from 2020-01-05T21:00:00 to 2020-01-05T23:59:59
+2020-01-15 00:11:00,262 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:01,079 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:01,080 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:01,890 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:01,891 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:02,630 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:02,630 - headline_collector - DEBUG - page: 4
+2020-01-15 00:11:03,271 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:03,308 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:11:03,308 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:11:03,308 - headline_collector - INFO - requesting from 2020-01-06T00:00:00 to 2020-01-06T02:59:59
+2020-01-15 00:11:03,308 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:03,958 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:03,959 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:04,637 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:04,638 - headline_collector - INFO - requesting from 2020-01-06T03:00:00 to 2020-01-06T05:59:59
+2020-01-15 00:11:04,638 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:05,321 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:05,321 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:06,002 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:06,003 - headline_collector - INFO - requesting from 2020-01-06T06:00:00 to 2020-01-06T08:59:59
+2020-01-15 00:11:06,003 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:06,659 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:06,660 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:07,196 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:07,196 - headline_collector - INFO - requesting from 2020-01-06T09:00:00 to 2020-01-06T11:59:59
+2020-01-15 00:11:07,197 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:07,870 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:07,870 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:08,699 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:08,700 - headline_collector - INFO - requesting from 2020-01-06T12:00:00 to 2020-01-06T14:59:59
+2020-01-15 00:11:08,700 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:09,372 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:09,372 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:10,070 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:10,071 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:10,745 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:10,746 - headline_collector - INFO - requesting from 2020-01-06T15:00:00 to 2020-01-06T17:59:59
+2020-01-15 00:11:10,746 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:11,402 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:11,403 - headline_collector - WARNING - 111 results in this period!
+2020-01-15 00:11:11,424 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:11:11,424 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:11:11,424 - headline_collector - INFO - requesting from 2020-01-07T00:00:00 to 2020-01-07T02:59:59
+2020-01-15 00:11:11,424 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:12,456 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:12,457 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:13,284 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:13,284 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:13,930 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:13,930 - headline_collector - INFO - requesting from 2020-01-07T03:00:00 to 2020-01-07T05:59:59
+2020-01-15 00:11:13,930 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:14,649 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:14,649 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:15,370 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:15,371 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:15,905 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:15,906 - headline_collector - INFO - requesting from 2020-01-07T06:00:00 to 2020-01-07T08:59:59
+2020-01-15 00:11:15,906 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:16,565 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:16,566 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:17,122 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:17,123 - headline_collector - INFO - requesting from 2020-01-07T09:00:00 to 2020-01-07T11:59:59
+2020-01-15 00:11:17,123 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:17,788 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:17,789 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:18,488 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:18,489 - headline_collector - INFO - requesting from 2020-01-07T12:00:00 to 2020-01-07T14:59:59
+2020-01-15 00:11:18,489 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:19,199 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:19,199 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:19,845 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:19,846 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:20,520 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:20,521 - headline_collector - DEBUG - page: 4
+2020-01-15 00:11:21,196 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:21,197 - headline_collector - INFO - requesting from 2020-01-07T15:00:00 to 2020-01-07T17:59:59
+2020-01-15 00:11:21,197 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:21,837 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:21,838 - headline_collector - WARNING - 117 results in this period!
+2020-01-15 00:11:21,863 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:11:21,863 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:11:21,863 - headline_collector - INFO - requesting from 2020-01-08T00:00:00 to 2020-01-08T02:59:59
+2020-01-15 00:11:21,864 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:22,525 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:22,525 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:23,198 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:23,198 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:23,730 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:23,731 - headline_collector - INFO - requesting from 2020-01-08T03:00:00 to 2020-01-08T05:59:59
+2020-01-15 00:11:23,731 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:24,428 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:24,429 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:25,069 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:25,070 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:25,713 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:25,714 - headline_collector - INFO - requesting from 2020-01-08T06:00:00 to 2020-01-08T08:59:59
+2020-01-15 00:11:25,714 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:26,394 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:26,394 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:26,956 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:26,957 - headline_collector - INFO - requesting from 2020-01-08T09:00:00 to 2020-01-08T11:59:59
+2020-01-15 00:11:26,957 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:27,646 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:27,647 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:28,308 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:28,309 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:28,867 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:28,868 - headline_collector - INFO - requesting from 2020-01-08T12:00:00 to 2020-01-08T14:59:59
+2020-01-15 00:11:28,868 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:29,543 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:29,544 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:30,200 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:30,201 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:30,935 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:30,936 - headline_collector - DEBUG - page: 4
+2020-01-15 00:11:31,464 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:31,465 - headline_collector - INFO - requesting from 2020-01-08T15:00:00 to 2020-01-08T17:59:59
+2020-01-15 00:11:31,465 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:32,243 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:32,243 - headline_collector - WARNING - 115 results in this period!
+2020-01-15 00:11:32,270 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:11:32,270 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:11:32,270 - headline_collector - INFO - requesting from 2020-01-09T00:00:00 to 2020-01-09T02:59:59
+2020-01-15 00:11:32,270 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:32,927 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:32,928 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:33,567 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:33,568 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:34,236 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:34,237 - headline_collector - INFO - requesting from 2020-01-09T03:00:00 to 2020-01-09T05:59:59
+2020-01-15 00:11:34,237 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:34,905 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:34,906 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:35,578 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:35,579 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:36,219 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:36,220 - headline_collector - DEBUG - page: 4
+2020-01-15 00:11:36,941 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:36,941 - headline_collector - INFO - requesting from 2020-01-09T06:00:00 to 2020-01-09T08:59:59
+2020-01-15 00:11:36,941 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:37,596 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:37,596 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:38,143 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:38,144 - headline_collector - INFO - requesting from 2020-01-09T09:00:00 to 2020-01-09T11:59:59
+2020-01-15 00:11:38,144 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:38,821 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:38,821 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:39,473 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:39,473 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:40,034 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:40,034 - headline_collector - INFO - requesting from 2020-01-09T12:00:00 to 2020-01-09T14:59:59
+2020-01-15 00:11:40,034 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:40,712 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:40,713 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:41,390 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:41,391 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:42,111 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:42,112 - headline_collector - DEBUG - page: 4
+2020-01-15 00:11:42,640 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:42,640 - headline_collector - INFO - requesting from 2020-01-09T15:00:00 to 2020-01-09T17:59:59
+2020-01-15 00:11:42,640 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:43,317 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:43,317 - headline_collector - WARNING - 112 results in this period!
+2020-01-15 00:11:43,344 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-15 00:11:43,345 - headline_collector - DEBUG - Splitting into 8 intervals
+2020-01-15 00:11:43,345 - headline_collector - INFO - requesting from 2020-01-10T00:00:00 to 2020-01-10T02:59:59
+2020-01-15 00:11:43,345 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:43,994 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:43,995 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:44,645 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:44,646 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:45,325 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:45,325 - headline_collector - DEBUG - page: 4
+2020-01-15 00:11:45,875 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:45,876 - headline_collector - INFO - requesting from 2020-01-10T03:00:00 to 2020-01-10T05:59:59
+2020-01-15 00:11:45,876 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:46,528 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:46,529 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:47,204 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:47,204 - headline_collector - DEBUG - page: 3
+2020-01-15 00:11:47,886 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:47,886 - headline_collector - DEBUG - page: 4
+2020-01-15 00:11:48,585 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:48,585 - headline_collector - DEBUG - page: 5
+2020-01-15 00:11:49,233 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:49,233 - headline_collector - INFO - requesting from 2020-01-10T06:00:00 to 2020-01-10T08:59:59
+2020-01-15 00:11:49,234 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:49,919 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:49,919 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:50,590 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:50,591 - headline_collector - INFO - requesting from 2020-01-10T09:00:00 to 2020-01-10T11:59:59
+2020-01-15 00:11:50,591 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:51,265 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:51,266 - headline_collector - DEBUG - page: 2
+2020-01-15 00:11:51,913 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:51,914 - headline_collector - INFO - requesting from 2020-01-10T12:00:00 to 2020-01-10T14:59:59
+2020-01-15 00:11:51,914 - headline_collector - DEBUG - page: 1
+2020-01-15 00:11:52,560 - headline_collector - DEBUG - collected data
+2020-01-15 00:11:52,560 - headline_collector - DEBUG - page: 2

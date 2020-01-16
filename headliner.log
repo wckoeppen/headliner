@@ -3015,3 +3015,7 @@
 2020-01-16 00:12:03,067 - headline_collector - DEBUG - page: 1
 2020-01-16 00:12:03,808 - headline_collector - DEBUG - collected data
 2020-01-16 00:12:03,808 - headline_collector - DEBUG - page: 2
+2020-01-16 09:41:27,970 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-16 09:41:27,970 - headline_collector - DEBUG - Splitting into 12 intervals
+2020-01-16 09:41:27,970 - headline_collector - INFO - requesting from 2020-01-13T00:00:00 to 2020-01-13T01:59:59
+2020-01-16 09:41:27,970 - headline_collector - DEBUG - page: 1

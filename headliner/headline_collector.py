@@ -86,7 +86,7 @@ def get_newsapi_on_date(date, source="", intervals=4):
         if total_results > 20:
 
             if total_results > 100:
-                logger.warning(f"{total_results} results in this period!")
+                logger.warning(f"{total_results} results from {source} from {from_datehour_str} to {to_datehour_str}")
                 return False
 
             else:
@@ -96,3 +96,6 @@ def get_newsapi_on_date(date, source="", intervals=4):
                     get_results(page=this_page, source=source)
 
     return True
+
+# def get_nyt_on_date(date):
+    

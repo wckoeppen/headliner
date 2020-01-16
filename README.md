@@ -17,6 +17,7 @@ Of course all these mean more requests. With 500 requests per day, in theory you
 ### Issues
 - Some of the content fields, particularly in The Washington Post, contain newlines. And sometimes more than one (e.g., they include the header which has a newline on either side). This messes with the CSVs. Maybe get around this by quoting those fields?
 - Meanwhile, the Reuters feed produces multiple lines (up to 3 is typical) for the same article headline, with different URLS (e.g., one is in "topnews" and one is in "worldnews").
+- Reuters and Associated Press produce far more headlines than anyone else, and I typically have to split requests for these sources. So far reqesting data from 2-hour periods (12 intervals per day) seems to work out.
 
 ## NYT API
 On the third day of successfully pulling New York Times headlines from newsAPI.org, that source was dropped from the newsapi results. The last day they produced was January 11, 2020. So now you have to use https://developer.nytimes.com/apis

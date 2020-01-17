@@ -20,16 +20,6 @@ store_dir = "/home/will/Projects/headliner/datastore/raw/"
 
 for source in sources:
 
-    back_dates = pd.date_range(start="2020-01-13", end="2020-01-13")
-
-    for back_date in back_dates:
-        print(back_date)
-        get_newsapi_on_date(back_date, intervals=12, source=source)
-        process_source_on_date(back_date, source=source)
-
-
-for source in sources:
-
     back_dates = pd.date_range(start="2020-01-02", end="2020-01-03")
 
     for back_date in back_dates:
@@ -37,40 +27,20 @@ for source in sources:
         get_newsapi_on_date(back_date, intervals=12, source=source)
         process_source_on_date(back_date, source=source)
 
-for source in sources:
+# for source in sources:
 
-    back_dates = pd.date_range(start="2020-01-06", end="2020-01-10")
+#     back_dates = pd.date_range(start="2020-01-06", end="2020-01-10")
 
-    for back_date in back_dates:
-        print(back_date)
-        get_newsapi_on_date(back_date, intervals=12, source=source)
-        process_source_on_date(back_date, source=source)
+#     for back_date in back_dates:
+#         print(back_date)
+#         get_newsapi_on_date(back_date, intervals=12, source=source)
+#         process_source_on_date(back_date, source=source)
 
-for source in sources:
+# for source in sources:
 
-    back_dates = pd.date_range(start="2020-01-14", end="2020-01-15")
+#     back_dates = pd.date_range(start="2020-01-13", end="2020-01-16")
 
-    for back_date in back_dates:
-        print(back_date)
-        get_newsapi_on_date(back_date, intervals=12, source=source)
-        process_source_on_date(back_date, source=source)
-
-sources = ["reuters"]
-
-for source in sources:
-
-    back_dates = pd.date_range(start="2020-01-07", end="2020-01-09")
-
-    for back_date in back_dates:
-        print(back_date)
-        get_newsapi_on_date(back_date, intervals=12, source=source)
-        process_source_on_date(back_date, source=source)
-
-for source in sources:
-
-    back_dates = pd.date_range(start="2020-01-14", end="2020-01-15")
-
-    for back_date in back_dates:
-        print(back_date)
-        get_newsapi_on_date(back_date, intervals=12, source=source)
-        process_source_on_date(back_date, source=source)
+#     for back_date in back_dates:
+#         print(back_date)
+#         get_newsapi_on_date(back_date, intervals=12, source=source)
+#         process_source_on_date(back_date, source=source)

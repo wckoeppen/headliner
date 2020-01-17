@@ -3662,3 +3662,104 @@
 2020-01-17 00:11:48,968 - headline_collector - DEBUG - collected data
 2020-01-17 00:11:48,968 - headline_collector - INFO - requesting from 2020-01-08T04:00:00 to 2020-01-08T05:59:59
 2020-01-17 00:11:48,968 - headline_collector - DEBUG - page: 1
+2020-01-17 11:08:39,561 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-17 11:08:39,561 - headline_collector - INFO - requesting from 2020-01-02T00:00:00 to 2020-01-02T01:59:59
+2020-01-17 11:08:40,262 - headline_collector - INFO - requesting from 2020-01-02T02:00:00 to 2020-01-02T03:59:59
+2020-01-17 11:08:41,234 - headline_collector - INFO - requesting from 2020-01-02T04:00:00 to 2020-01-02T05:59:59
+2020-01-17 11:08:41,889 - headline_collector - INFO - requesting from 2020-01-02T06:00:00 to 2020-01-02T07:59:59
+2020-01-17 11:08:42,599 - headline_collector - INFO - requesting from 2020-01-02T08:00:00 to 2020-01-02T09:59:59
+2020-01-17 11:08:43,269 - headline_collector - INFO - requesting from 2020-01-02T10:00:00 to 2020-01-02T11:59:59
+2020-01-17 11:08:43,927 - headline_collector - INFO - requesting from 2020-01-02T12:00:00 to 2020-01-02T13:59:59
+2020-01-17 11:08:45,281 - headline_collector - INFO - requesting from 2020-01-02T14:00:00 to 2020-01-02T15:59:59
+2020-01-17 11:08:47,264 - headline_collector - INFO - requesting from 2020-01-02T16:00:00 to 2020-01-02T17:59:59
+2020-01-17 11:08:49,357 - headline_collector - INFO - requesting from 2020-01-02T18:00:00 to 2020-01-02T19:59:59
+2020-01-17 11:08:51,455 - headline_collector - INFO - requesting from 2020-01-02T20:00:00 to 2020-01-02T21:59:59
+2020-01-17 11:08:54,142 - headline_collector - INFO - requesting from 2020-01-02T22:00:00 to 2020-01-02T23:59:59
+2020-01-17 11:08:57,074 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-17 11:08:57,074 - headline_collector - INFO - requesting from 2020-01-03T00:00:00 to 2020-01-03T01:59:59
+2020-01-17 11:08:58,302 - headline_collector - INFO - requesting from 2020-01-03T02:00:00 to 2020-01-03T03:59:59
+2020-01-17 11:09:01,525 - headline_collector - INFO - requesting from 2020-01-03T04:00:00 to 2020-01-03T05:59:59
+2020-01-17 11:09:03,549 - headline_collector - INFO - requesting from 2020-01-03T06:00:00 to 2020-01-03T07:59:59
+2020-01-17 11:09:04,778 - headline_collector - INFO - requesting from 2020-01-03T08:00:00 to 2020-01-03T09:59:59
+2020-01-17 11:09:05,439 - headline_collector - INFO - requesting from 2020-01-03T10:00:00 to 2020-01-03T11:59:59
+2020-01-17 11:09:06,164 - headline_collector - INFO - requesting from 2020-01-03T12:00:00 to 2020-01-03T13:59:59
+2020-01-17 11:09:07,543 - headline_collector - INFO - requesting from 2020-01-03T14:00:00 to 2020-01-03T15:59:59
+2020-01-17 11:09:09,557 - headline_collector - INFO - requesting from 2020-01-03T16:00:00 to 2020-01-03T17:59:59
+2020-01-17 11:09:12,285 - headline_collector - INFO - requesting from 2020-01-03T18:00:00 to 2020-01-03T19:59:59
+2020-01-17 11:09:14,297 - headline_collector - INFO - requesting from 2020-01-03T20:00:00 to 2020-01-03T21:59:59
+2020-01-17 11:09:16,284 - headline_collector - INFO - requesting from 2020-01-03T22:00:00 to 2020-01-03T23:59:59
+2020-01-17 11:10:11,685 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-17 11:10:11,685 - headline_collector - INFO - requesting from 2020-01-06T00:00:00 to 2020-01-06T01:59:59
+2020-01-17 11:10:12,940 - headline_collector - INFO - requesting from 2020-01-06T02:00:00 to 2020-01-06T03:59:59
+2020-01-17 11:10:13,612 - headline_collector - INFO - requesting from 2020-01-06T04:00:00 to 2020-01-06T05:59:59
+2020-01-17 11:10:14,851 - headline_collector - INFO - requesting from 2020-01-06T06:00:00 to 2020-01-06T07:59:59
+2020-01-17 11:10:16,085 - headline_collector - INFO - requesting from 2020-01-06T08:00:00 to 2020-01-06T09:59:59
+2020-01-17 11:10:16,743 - headline_collector - INFO - requesting from 2020-01-06T10:00:00 to 2020-01-06T11:59:59
+2020-01-17 11:10:18,011 - headline_collector - INFO - requesting from 2020-01-06T12:00:00 to 2020-01-06T13:59:59
+2020-01-17 11:10:19,342 - headline_collector - INFO - requesting from 2020-01-06T14:00:00 to 2020-01-06T15:59:59
+2020-01-17 11:10:21,419 - headline_collector - INFO - requesting from 2020-01-06T16:00:00 to 2020-01-06T17:59:59
+2020-01-17 11:10:24,285 - headline_collector - INFO - requesting from 2020-01-06T18:00:00 to 2020-01-06T19:59:59
+2020-01-17 11:10:27,038 - headline_collector - INFO - requesting from 2020-01-06T20:00:00 to 2020-01-06T21:59:59
+2020-01-17 11:10:29,140 - headline_collector - INFO - requesting from 2020-01-06T22:00:00 to 2020-01-06T23:59:59
+2020-01-17 11:10:31,870 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-17 11:10:31,870 - headline_collector - INFO - requesting from 2020-01-07T00:00:00 to 2020-01-07T01:59:59
+2020-01-17 11:10:33,216 - headline_collector - INFO - requesting from 2020-01-07T02:00:00 to 2020-01-07T03:59:59
+2020-01-17 11:10:34,541 - headline_collector - INFO - requesting from 2020-01-07T04:00:00 to 2020-01-07T05:59:59
+2020-01-17 11:10:35,921 - headline_collector - INFO - requesting from 2020-01-07T06:00:00 to 2020-01-07T07:59:59
+2020-01-17 11:10:36,601 - headline_collector - INFO - requesting from 2020-01-07T08:00:00 to 2020-01-07T09:59:59
+2020-01-17 11:10:37,875 - headline_collector - INFO - requesting from 2020-01-07T10:00:00 to 2020-01-07T11:59:59
+2020-01-17 11:10:39,175 - headline_collector - INFO - requesting from 2020-01-07T12:00:00 to 2020-01-07T13:59:59
+2020-01-17 11:10:41,159 - headline_collector - INFO - requesting from 2020-01-07T14:00:00 to 2020-01-07T15:59:59
+2020-01-17 11:10:43,740 - headline_collector - INFO - requesting from 2020-01-07T16:00:00 to 2020-01-07T17:59:59
+2020-01-17 11:10:47,542 - headline_collector - INFO - requesting from 2020-01-07T18:00:00 to 2020-01-07T19:59:59
+2020-01-17 11:10:50,294 - headline_collector - INFO - requesting from 2020-01-07T20:00:00 to 2020-01-07T21:59:59
+2020-01-17 11:10:53,654 - headline_collector - INFO - requesting from 2020-01-07T22:00:00 to 2020-01-07T23:59:59
+2020-01-17 11:10:56,406 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-17 11:10:56,406 - headline_collector - INFO - requesting from 2020-01-08T00:00:00 to 2020-01-08T01:59:59
+2020-01-17 11:10:57,676 - headline_collector - INFO - requesting from 2020-01-08T02:00:00 to 2020-01-08T03:59:59
+2020-01-17 11:10:59,667 - headline_collector - INFO - requesting from 2020-01-08T04:00:00 to 2020-01-08T05:59:59
+2020-01-17 11:11:02,010 - headline_collector - INFO - requesting from 2020-01-08T06:00:00 to 2020-01-08T07:59:59
+2020-01-17 11:11:03,396 - headline_collector - INFO - requesting from 2020-01-08T08:00:00 to 2020-01-08T09:59:59
+2020-01-17 11:11:04,622 - headline_collector - INFO - requesting from 2020-01-08T10:00:00 to 2020-01-08T11:59:59
+2020-01-17 11:11:05,866 - headline_collector - INFO - requesting from 2020-01-08T12:00:00 to 2020-01-08T13:59:59
+2020-01-17 11:11:07,301 - headline_collector - INFO - requesting from 2020-01-08T14:00:00 to 2020-01-08T15:59:59
+2020-01-17 11:11:09,881 - headline_collector - INFO - requesting from 2020-01-08T16:00:00 to 2020-01-08T17:59:59
+2020-01-17 11:11:13,013 - headline_collector - INFO - requesting from 2020-01-08T18:00:00 to 2020-01-08T19:59:59
+2020-01-17 11:11:15,575 - headline_collector - INFO - requesting from 2020-01-08T20:00:00 to 2020-01-08T21:59:59
+2020-01-17 11:11:18,995 - headline_collector - INFO - requesting from 2020-01-08T22:00:00 to 2020-01-08T23:59:59
+2020-01-17 11:11:21,977 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-17 11:11:21,977 - headline_collector - INFO - requesting from 2020-01-09T00:00:00 to 2020-01-09T01:59:59
+2020-01-17 11:11:23,342 - headline_collector - INFO - requesting from 2020-01-09T02:00:00 to 2020-01-09T03:59:59
+2020-01-17 11:11:25,382 - headline_collector - INFO - requesting from 2020-01-09T04:00:00 to 2020-01-09T05:59:59
+2020-01-17 11:11:27,311 - headline_collector - INFO - requesting from 2020-01-09T06:00:00 to 2020-01-09T07:59:59
+2020-01-17 11:11:28,510 - headline_collector - INFO - requesting from 2020-01-09T08:00:00 to 2020-01-09T09:59:59
+2020-01-17 11:11:29,187 - headline_collector - INFO - requesting from 2020-01-09T10:00:00 to 2020-01-09T11:59:59
+2020-01-17 11:11:30,552 - headline_collector - INFO - requesting from 2020-01-09T12:00:00 to 2020-01-09T13:59:59
+2020-01-17 11:11:31,889 - headline_collector - INFO - requesting from 2020-01-09T14:00:00 to 2020-01-09T15:59:59
+2020-01-17 11:11:34,642 - headline_collector - INFO - requesting from 2020-01-09T16:00:00 to 2020-01-09T17:59:59
+2020-01-17 11:11:37,366 - headline_collector - INFO - requesting from 2020-01-09T18:00:00 to 2020-01-09T19:59:59
+2020-01-17 11:11:40,162 - headline_collector - INFO - requesting from 2020-01-09T20:00:00 to 2020-01-09T21:59:59
+2020-01-17 11:11:42,752 - headline_collector - INFO - requesting from 2020-01-09T22:00:00 to 2020-01-09T23:59:59
+2020-01-17 11:11:46,129 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-17 11:11:46,129 - headline_collector - INFO - requesting from 2020-01-10T00:00:00 to 2020-01-10T01:59:59
+2020-01-17 11:11:47,515 - headline_collector - INFO - requesting from 2020-01-10T02:00:00 to 2020-01-10T03:59:59
+2020-01-17 11:11:50,107 - headline_collector - INFO - requesting from 2020-01-10T04:00:00 to 2020-01-10T05:59:59
+2020-01-17 11:11:52,227 - headline_collector - INFO - requesting from 2020-01-10T06:00:00 to 2020-01-10T07:59:59
+2020-01-17 11:11:53,566 - headline_collector - INFO - requesting from 2020-01-10T08:00:00 to 2020-01-10T09:59:59
+2020-01-17 11:11:54,216 - headline_collector - INFO - requesting from 2020-01-10T10:00:00 to 2020-01-10T11:59:59
+2020-01-17 11:11:55,432 - headline_collector - INFO - requesting from 2020-01-10T12:00:00 to 2020-01-10T13:59:59
+2020-01-17 11:11:56,761 - headline_collector - INFO - requesting from 2020-01-10T14:00:00 to 2020-01-10T15:59:59
+2020-01-17 11:11:59,055 - headline_collector - INFO - requesting from 2020-01-10T16:00:00 to 2020-01-10T17:59:59
+2020-01-17 11:12:02,062 - headline_collector - INFO - requesting from 2020-01-10T18:00:00 to 2020-01-10T19:59:59
+2020-01-17 11:12:04,796 - headline_collector - INFO - requesting from 2020-01-10T20:00:00 to 2020-01-10T21:59:59
+2020-01-17 11:12:07,540 - headline_collector - INFO - requesting from 2020-01-10T22:00:00 to 2020-01-10T23:59:59
+2020-01-17 11:13:32,666 - headline_collector - INFO - Retrieving associated-press from newsapi.org
+2020-01-17 11:13:32,666 - headline_collector - INFO - requesting from 2020-01-13T00:00:00 to 2020-01-13T01:59:59
+2020-01-17 11:13:33,864 - headline_collector - INFO - requesting from 2020-01-13T02:00:00 to 2020-01-13T03:59:59
+2020-01-17 11:13:34,550 - headline_collector - INFO - requesting from 2020-01-13T04:00:00 to 2020-01-13T05:59:59
+2020-01-17 11:13:35,865 - headline_collector - INFO - requesting from 2020-01-13T06:00:00 to 2020-01-13T07:59:59
+2020-01-17 11:13:37,124 - headline_collector - INFO - requesting from 2020-01-13T08:00:00 to 2020-01-13T09:59:59
+2020-01-17 11:13:38,355 - headline_collector - INFO - requesting from 2020-01-13T10:00:00 to 2020-01-13T11:59:59
+2020-01-17 11:13:39,691 - headline_collector - INFO - requesting from 2020-01-13T12:00:00 to 2020-01-13T13:59:59
+2020-01-17 11:13:41,097 - headline_collector - INFO - requesting from 2020-01-13T14:00:00 to 2020-01-13T15:59:59
+2020-01-17 11:13:43,122 - headline_collector - INFO - requesting from 2020-01-13T16:00:00 to 2020-01-13T17:59:59

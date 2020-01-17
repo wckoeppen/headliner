@@ -2,4 +2,4 @@
 .vscode/
 .env
 __pycache__
-# datastore/raw/*
+datastore/raw/*

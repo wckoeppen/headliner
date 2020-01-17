@@ -20,27 +20,9 @@ store_dir = "/home/will/Projects/headliner/datastore/raw/"
 
 for source in sources:
 
-    back_dates = pd.date_range(start="2020-01-02", end="2020-01-03")
+    back_dates = pd.date_range(start="2020-01-13", end="2020-01-16")
 
     for back_date in back_dates:
         print(back_date)
         get_newsapi_on_date(back_date, intervals=12, source=source)
         process_source_on_date(back_date, source=source)
-
-# for source in sources:
-
-#     back_dates = pd.date_range(start="2020-01-06", end="2020-01-10")
-
-#     for back_date in back_dates:
-#         print(back_date)
-#         get_newsapi_on_date(back_date, intervals=12, source=source)
-#         process_source_on_date(back_date, source=source)
-
-# for source in sources:
-
-#     back_dates = pd.date_range(start="2020-01-13", end="2020-01-16")
-
-#     for back_date in back_dates:
-#         print(back_date)
-#         get_newsapi_on_date(back_date, intervals=12, source=source)
-#         process_source_on_date(back_date, source=source)

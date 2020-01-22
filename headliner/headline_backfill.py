@@ -20,7 +20,7 @@ store_dir = "/home/will/Projects/headliner/datastore/raw/"
 
 for source in sources:
 
-    back_dates = pd.date_range(start="2020-01-13", end="2020-01-16")
+    back_dates = pd.date_range(start="2020-01-14", end="2020-01-16")
 
     for back_date in back_dates:
         print(back_date)

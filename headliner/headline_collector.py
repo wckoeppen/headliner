@@ -22,8 +22,8 @@ logger = logging.getLogger(__name__)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
-API_KEY = os.getenv("NEWSAPI_KEY")
-api = NewsApiClient(api_key=API_KEY)
+NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
+api = NewsApiClient(api_key=NEWSAPI_KEY)
 
 def get_newsapi_on_date(date, source="", intervals=4):
     """Get the headlines for all articles for a source on a given day.
@@ -96,6 +96,3 @@ def get_newsapi_on_date(date, source="", intervals=4):
                     get_results(page=this_page, source=source)
 
     return True
-
-# def get_nyt_on_date(date):
-    

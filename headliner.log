@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2020-01-24 00:05:01,387 - __main__ - INFO - Retrieving fox-news from newsapi.org
 2020-01-24 00:05:01,387 - headline_collector - INFO - Retrieving fox-news from newsapi.org
 2020-01-24 00:05:01,387 - headline_collector - INFO - requesting from 2020-01-23T00:00:00 to 2020-01-23T01:59:59
@@ -54,3 +55,174 @@
 2020-01-24 00:05:44,396 - headline_collector - INFO - requesting from 2020-01-23T18:00:00 to 2020-01-23T19:59:59
 2020-01-24 00:05:47,010 - headline_collector - INFO - requesting from 2020-01-23T20:00:00 to 2020-01-23T21:59:59
 2020-01-24 00:05:49,687 - headline_collector - INFO - requesting from 2020-01-23T22:00:00 to 2020-01-23T23:59:59
+=======
+2020-01-23 21:57:20,738 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 21:57:20,738 - nyt_headline_collector - INFO - requesting from 2020-01-01T00:00:00 to 2020-01-01T01:59:59
+2020-01-23 21:57:20,738 - nyt_headline_collector - INFO - requesting from 2020-01-01T02:00:00 to 2020-01-01T03:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T04:00:00 to 2020-01-01T05:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T06:00:00 to 2020-01-01T07:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T08:00:00 to 2020-01-01T09:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T10:00:00 to 2020-01-01T11:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T12:00:00 to 2020-01-01T13:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T14:00:00 to 2020-01-01T15:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T16:00:00 to 2020-01-01T17:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T18:00:00 to 2020-01-01T19:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T20:00:00 to 2020-01-01T21:59:59
+2020-01-23 21:57:20,739 - nyt_headline_collector - INFO - requesting from 2020-01-01T22:00:00 to 2020-01-01T23:59:59
+2020-01-23 21:58:12,847 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 21:58:12,851 - nyt_headline_collector - INFO - requesting from 2020-01-02T00:00:00 to 2020-01-02T01:59:59
+2020-01-23 21:58:12,853 - nyt_headline_collector - INFO - requesting from 2020-01-02T02:00:00 to 2020-01-02T03:59:59
+2020-01-23 21:58:12,854 - nyt_headline_collector - INFO - requesting from 2020-01-02T04:00:00 to 2020-01-02T05:59:59
+2020-01-23 21:58:12,854 - nyt_headline_collector - INFO - requesting from 2020-01-02T06:00:00 to 2020-01-02T07:59:59
+2020-01-23 21:58:12,855 - nyt_headline_collector - INFO - requesting from 2020-01-02T08:00:00 to 2020-01-02T09:59:59
+2020-01-23 21:58:12,857 - nyt_headline_collector - INFO - requesting from 2020-01-02T10:00:00 to 2020-01-02T11:59:59
+2020-01-23 21:58:12,858 - nyt_headline_collector - INFO - requesting from 2020-01-02T12:00:00 to 2020-01-02T13:59:59
+2020-01-23 21:58:12,858 - nyt_headline_collector - INFO - requesting from 2020-01-02T14:00:00 to 2020-01-02T15:59:59
+2020-01-23 21:58:12,859 - nyt_headline_collector - INFO - requesting from 2020-01-02T16:00:00 to 2020-01-02T17:59:59
+2020-01-23 21:58:12,861 - nyt_headline_collector - INFO - requesting from 2020-01-02T18:00:00 to 2020-01-02T19:59:59
+2020-01-23 21:58:12,862 - nyt_headline_collector - INFO - requesting from 2020-01-02T20:00:00 to 2020-01-02T21:59:59
+2020-01-23 21:58:12,863 - nyt_headline_collector - INFO - requesting from 2020-01-02T22:00:00 to 2020-01-02T23:59:59
+2020-01-23 22:09:12,643 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:09:12,643 - nyt_headline_collector - INFO - requesting from 2020-01-02T00:00:00 to 2020-01-02T01:59:59
+2020-01-23 22:09:12,644 - nyt_headline_collector - INFO - requesting from 2020-01-02T02:00:00 to 2020-01-02T03:59:59
+2020-01-23 22:09:12,644 - nyt_headline_collector - INFO - requesting from 2020-01-02T04:00:00 to 2020-01-02T05:59:59
+2020-01-23 22:09:12,644 - nyt_headline_collector - INFO - requesting from 2020-01-02T06:00:00 to 2020-01-02T07:59:59
+2020-01-23 22:09:12,644 - nyt_headline_collector - INFO - requesting from 2020-01-02T08:00:00 to 2020-01-02T09:59:59
+2020-01-23 22:09:12,644 - nyt_headline_collector - INFO - requesting from 2020-01-02T10:00:00 to 2020-01-02T11:59:59
+2020-01-23 22:09:12,644 - nyt_headline_collector - INFO - requesting from 2020-01-02T12:00:00 to 2020-01-02T13:59:59
+2020-01-23 22:09:12,645 - nyt_headline_collector - INFO - requesting from 2020-01-02T14:00:00 to 2020-01-02T15:59:59
+2020-01-23 22:09:12,645 - nyt_headline_collector - INFO - requesting from 2020-01-02T16:00:00 to 2020-01-02T17:59:59
+2020-01-23 22:09:12,645 - nyt_headline_collector - INFO - requesting from 2020-01-02T18:00:00 to 2020-01-02T19:59:59
+2020-01-23 22:09:12,645 - nyt_headline_collector - INFO - requesting from 2020-01-02T20:00:00 to 2020-01-02T21:59:59
+2020-01-23 22:09:12,645 - nyt_headline_collector - INFO - requesting from 2020-01-02T22:00:00 to 2020-01-02T23:59:59
+2020-01-23 22:13:04,698 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:13:04,699 - nyt_headline_collector - INFO - requesting from 2020-01-03T00:00:00 to 2020-01-03T01:59:59
+2020-01-23 22:13:04,699 - nyt_headline_collector - INFO - requesting from 2020-01-03T02:00:00 to 2020-01-03T03:59:59
+2020-01-23 22:13:04,699 - nyt_headline_collector - INFO - requesting from 2020-01-03T04:00:00 to 2020-01-03T05:59:59
+2020-01-23 22:13:04,700 - nyt_headline_collector - INFO - requesting from 2020-01-03T06:00:00 to 2020-01-03T07:59:59
+2020-01-23 22:13:04,700 - nyt_headline_collector - INFO - requesting from 2020-01-03T08:00:00 to 2020-01-03T09:59:59
+2020-01-23 22:13:04,700 - nyt_headline_collector - INFO - requesting from 2020-01-03T10:00:00 to 2020-01-03T11:59:59
+2020-01-23 22:13:04,700 - nyt_headline_collector - INFO - requesting from 2020-01-03T12:00:00 to 2020-01-03T13:59:59
+2020-01-23 22:13:04,701 - nyt_headline_collector - INFO - requesting from 2020-01-03T14:00:00 to 2020-01-03T15:59:59
+2020-01-23 22:13:04,701 - nyt_headline_collector - INFO - requesting from 2020-01-03T16:00:00 to 2020-01-03T17:59:59
+2020-01-23 22:13:04,701 - nyt_headline_collector - INFO - requesting from 2020-01-03T18:00:00 to 2020-01-03T19:59:59
+2020-01-23 22:13:04,701 - nyt_headline_collector - INFO - requesting from 2020-01-03T20:00:00 to 2020-01-03T21:59:59
+2020-01-23 22:13:04,701 - nyt_headline_collector - INFO - requesting from 2020-01-03T22:00:00 to 2020-01-03T23:59:59
+2020-01-23 22:16:06,942 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:16:06,943 - nyt_headline_collector - INFO - requesting from 2020-01-04T00:00:00 to 2020-01-04T01:59:59
+2020-01-23 22:16:06,943 - nyt_headline_collector - INFO - requesting from 2020-01-04T02:00:00 to 2020-01-04T03:59:59
+2020-01-23 22:16:06,944 - nyt_headline_collector - INFO - requesting from 2020-01-04T04:00:00 to 2020-01-04T05:59:59
+2020-01-23 22:16:06,945 - nyt_headline_collector - INFO - requesting from 2020-01-04T06:00:00 to 2020-01-04T07:59:59
+2020-01-23 22:16:06,945 - nyt_headline_collector - INFO - requesting from 2020-01-04T08:00:00 to 2020-01-04T09:59:59
+2020-01-23 22:16:06,946 - nyt_headline_collector - INFO - requesting from 2020-01-04T10:00:00 to 2020-01-04T11:59:59
+2020-01-23 22:16:06,946 - nyt_headline_collector - INFO - requesting from 2020-01-04T12:00:00 to 2020-01-04T13:59:59
+2020-01-23 22:16:06,948 - nyt_headline_collector - INFO - requesting from 2020-01-04T14:00:00 to 2020-01-04T15:59:59
+2020-01-23 22:16:06,949 - nyt_headline_collector - INFO - requesting from 2020-01-04T16:00:00 to 2020-01-04T17:59:59
+2020-01-23 22:16:06,950 - nyt_headline_collector - INFO - requesting from 2020-01-04T18:00:00 to 2020-01-04T19:59:59
+2020-01-23 22:16:06,952 - nyt_headline_collector - INFO - requesting from 2020-01-04T20:00:00 to 2020-01-04T21:59:59
+2020-01-23 22:16:06,952 - nyt_headline_collector - INFO - requesting from 2020-01-04T22:00:00 to 2020-01-04T23:59:59
+2020-01-23 22:17:16,244 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:17:16,245 - nyt_headline_collector - INFO - requesting from 2020-01-05T00:00:00 to 2020-01-05T01:59:59
+2020-01-23 22:17:16,245 - nyt_headline_collector - INFO - requesting from 2020-01-05T02:00:00 to 2020-01-05T03:59:59
+2020-01-23 22:17:16,246 - nyt_headline_collector - INFO - requesting from 2020-01-05T04:00:00 to 2020-01-05T05:59:59
+2020-01-23 22:17:16,246 - nyt_headline_collector - INFO - requesting from 2020-01-05T06:00:00 to 2020-01-05T07:59:59
+2020-01-23 22:17:16,246 - nyt_headline_collector - INFO - requesting from 2020-01-05T08:00:00 to 2020-01-05T09:59:59
+2020-01-23 22:17:16,246 - nyt_headline_collector - INFO - requesting from 2020-01-05T10:00:00 to 2020-01-05T11:59:59
+2020-01-23 22:17:16,247 - nyt_headline_collector - INFO - requesting from 2020-01-05T12:00:00 to 2020-01-05T13:59:59
+2020-01-23 22:17:16,247 - nyt_headline_collector - INFO - requesting from 2020-01-05T14:00:00 to 2020-01-05T15:59:59
+2020-01-23 22:17:16,247 - nyt_headline_collector - INFO - requesting from 2020-01-05T16:00:00 to 2020-01-05T17:59:59
+2020-01-23 22:17:16,248 - nyt_headline_collector - INFO - requesting from 2020-01-05T18:00:00 to 2020-01-05T19:59:59
+2020-01-23 22:17:16,248 - nyt_headline_collector - INFO - requesting from 2020-01-05T20:00:00 to 2020-01-05T21:59:59
+2020-01-23 22:17:16,249 - nyt_headline_collector - INFO - requesting from 2020-01-05T22:00:00 to 2020-01-05T23:59:59
+2020-01-23 22:18:37,188 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:18:37,189 - nyt_headline_collector - INFO - requesting from 2020-01-06T00:00:00 to 2020-01-06T01:59:59
+2020-01-23 22:18:37,193 - nyt_headline_collector - INFO - requesting from 2020-01-06T02:00:00 to 2020-01-06T03:59:59
+2020-01-23 22:18:37,193 - nyt_headline_collector - INFO - requesting from 2020-01-06T04:00:00 to 2020-01-06T05:59:59
+2020-01-23 22:18:37,194 - nyt_headline_collector - INFO - requesting from 2020-01-06T06:00:00 to 2020-01-06T07:59:59
+2020-01-23 22:18:37,195 - nyt_headline_collector - INFO - requesting from 2020-01-06T08:00:00 to 2020-01-06T09:59:59
+2020-01-23 22:18:37,196 - nyt_headline_collector - INFO - requesting from 2020-01-06T10:00:00 to 2020-01-06T11:59:59
+2020-01-23 22:18:37,196 - nyt_headline_collector - INFO - requesting from 2020-01-06T12:00:00 to 2020-01-06T13:59:59
+2020-01-23 22:18:37,197 - nyt_headline_collector - INFO - requesting from 2020-01-06T14:00:00 to 2020-01-06T15:59:59
+2020-01-23 22:18:37,197 - nyt_headline_collector - INFO - requesting from 2020-01-06T16:00:00 to 2020-01-06T17:59:59
+2020-01-23 22:18:37,197 - nyt_headline_collector - INFO - requesting from 2020-01-06T18:00:00 to 2020-01-06T19:59:59
+2020-01-23 22:18:37,198 - nyt_headline_collector - INFO - requesting from 2020-01-06T20:00:00 to 2020-01-06T21:59:59
+2020-01-23 22:18:37,198 - nyt_headline_collector - INFO - requesting from 2020-01-06T22:00:00 to 2020-01-06T23:59:59
+2020-01-23 22:21:11,676 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:21:11,677 - nyt_headline_collector - INFO - requesting from 2020-01-07T00:00:00 to 2020-01-07T01:59:59
+2020-01-23 22:21:11,678 - nyt_headline_collector - INFO - requesting from 2020-01-07T02:00:00 to 2020-01-07T03:59:59
+2020-01-23 22:21:11,679 - nyt_headline_collector - INFO - requesting from 2020-01-07T04:00:00 to 2020-01-07T05:59:59
+2020-01-23 22:21:11,679 - nyt_headline_collector - INFO - requesting from 2020-01-07T06:00:00 to 2020-01-07T07:59:59
+2020-01-23 22:21:11,681 - nyt_headline_collector - INFO - requesting from 2020-01-07T08:00:00 to 2020-01-07T09:59:59
+2020-01-23 22:21:11,682 - nyt_headline_collector - INFO - requesting from 2020-01-07T10:00:00 to 2020-01-07T11:59:59
+2020-01-23 22:21:11,683 - nyt_headline_collector - INFO - requesting from 2020-01-07T12:00:00 to 2020-01-07T13:59:59
+2020-01-23 22:21:11,684 - nyt_headline_collector - INFO - requesting from 2020-01-07T14:00:00 to 2020-01-07T15:59:59
+2020-01-23 22:21:11,685 - nyt_headline_collector - INFO - requesting from 2020-01-07T16:00:00 to 2020-01-07T17:59:59
+2020-01-23 22:21:11,686 - nyt_headline_collector - INFO - requesting from 2020-01-07T18:00:00 to 2020-01-07T19:59:59
+2020-01-23 22:21:11,686 - nyt_headline_collector - INFO - requesting from 2020-01-07T20:00:00 to 2020-01-07T21:59:59
+2020-01-23 22:21:11,686 - nyt_headline_collector - INFO - requesting from 2020-01-07T22:00:00 to 2020-01-07T23:59:59
+2020-01-23 22:24:22,681 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:24:22,682 - nyt_headline_collector - INFO - requesting from 2020-01-08T00:00:00 to 2020-01-08T01:59:59
+2020-01-23 22:24:22,683 - nyt_headline_collector - INFO - requesting from 2020-01-08T02:00:00 to 2020-01-08T03:59:59
+2020-01-23 22:24:22,685 - nyt_headline_collector - INFO - requesting from 2020-01-08T04:00:00 to 2020-01-08T05:59:59
+2020-01-23 22:24:22,686 - nyt_headline_collector - INFO - requesting from 2020-01-08T06:00:00 to 2020-01-08T07:59:59
+2020-01-23 22:24:22,689 - nyt_headline_collector - INFO - requesting from 2020-01-08T08:00:00 to 2020-01-08T09:59:59
+2020-01-23 22:24:22,693 - nyt_headline_collector - INFO - requesting from 2020-01-08T10:00:00 to 2020-01-08T11:59:59
+2020-01-23 22:24:22,694 - nyt_headline_collector - INFO - requesting from 2020-01-08T12:00:00 to 2020-01-08T13:59:59
+2020-01-23 22:24:22,695 - nyt_headline_collector - INFO - requesting from 2020-01-08T14:00:00 to 2020-01-08T15:59:59
+2020-01-23 22:24:22,696 - nyt_headline_collector - INFO - requesting from 2020-01-08T16:00:00 to 2020-01-08T17:59:59
+2020-01-23 22:24:22,697 - nyt_headline_collector - INFO - requesting from 2020-01-08T18:00:00 to 2020-01-08T19:59:59
+2020-01-23 22:24:22,706 - nyt_headline_collector - INFO - requesting from 2020-01-08T20:00:00 to 2020-01-08T21:59:59
+2020-01-23 22:24:22,707 - nyt_headline_collector - INFO - requesting from 2020-01-08T22:00:00 to 2020-01-08T23:59:59
+2020-01-23 22:27:09,438 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:27:09,438 - nyt_headline_collector - INFO - requesting from 2020-01-09T00:00:00 to 2020-01-09T01:59:59
+2020-01-23 22:27:09,439 - nyt_headline_collector - INFO - requesting from 2020-01-09T02:00:00 to 2020-01-09T03:59:59
+2020-01-23 22:27:09,439 - nyt_headline_collector - INFO - requesting from 2020-01-09T04:00:00 to 2020-01-09T05:59:59
+2020-01-23 22:27:09,440 - nyt_headline_collector - INFO - requesting from 2020-01-09T06:00:00 to 2020-01-09T07:59:59
+2020-01-23 22:27:09,440 - nyt_headline_collector - INFO - requesting from 2020-01-09T08:00:00 to 2020-01-09T09:59:59
+2020-01-23 22:27:09,440 - nyt_headline_collector - INFO - requesting from 2020-01-09T10:00:00 to 2020-01-09T11:59:59
+2020-01-23 22:27:09,440 - nyt_headline_collector - INFO - requesting from 2020-01-09T12:00:00 to 2020-01-09T13:59:59
+2020-01-23 22:27:09,441 - nyt_headline_collector - INFO - requesting from 2020-01-09T14:00:00 to 2020-01-09T15:59:59
+2020-01-23 22:27:09,441 - nyt_headline_collector - INFO - requesting from 2020-01-09T16:00:00 to 2020-01-09T17:59:59
+2020-01-23 22:27:09,442 - nyt_headline_collector - INFO - requesting from 2020-01-09T18:00:00 to 2020-01-09T19:59:59
+2020-01-23 22:27:09,442 - nyt_headline_collector - INFO - requesting from 2020-01-09T20:00:00 to 2020-01-09T21:59:59
+2020-01-23 22:27:09,442 - nyt_headline_collector - INFO - requesting from 2020-01-09T22:00:00 to 2020-01-09T23:59:59
+2020-01-23 22:31:14,936 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:31:14,936 - nyt_headline_collector - INFO - requesting from 2020-01-11T00:00:00 to 2020-01-11T01:59:59
+2020-01-23 22:31:14,936 - nyt_headline_collector - INFO - requesting from 2020-01-11T02:00:00 to 2020-01-11T03:59:59
+2020-01-23 22:31:14,936 - nyt_headline_collector - INFO - requesting from 2020-01-11T04:00:00 to 2020-01-11T05:59:59
+2020-01-23 22:31:14,937 - nyt_headline_collector - INFO - requesting from 2020-01-11T06:00:00 to 2020-01-11T07:59:59
+2020-01-23 22:31:14,937 - nyt_headline_collector - INFO - requesting from 2020-01-11T08:00:00 to 2020-01-11T09:59:59
+2020-01-23 22:31:14,937 - nyt_headline_collector - INFO - requesting from 2020-01-11T10:00:00 to 2020-01-11T11:59:59
+2020-01-23 22:31:14,937 - nyt_headline_collector - INFO - requesting from 2020-01-11T12:00:00 to 2020-01-11T13:59:59
+2020-01-23 22:31:14,937 - nyt_headline_collector - INFO - requesting from 2020-01-11T14:00:00 to 2020-01-11T15:59:59
+2020-01-23 22:31:14,937 - nyt_headline_collector - INFO - requesting from 2020-01-11T16:00:00 to 2020-01-11T17:59:59
+2020-01-23 22:31:14,937 - nyt_headline_collector - INFO - requesting from 2020-01-11T18:00:00 to 2020-01-11T19:59:59
+2020-01-23 22:31:14,937 - nyt_headline_collector - INFO - requesting from 2020-01-11T20:00:00 to 2020-01-11T21:59:59
+2020-01-23 22:31:14,937 - nyt_headline_collector - INFO - requesting from 2020-01-11T22:00:00 to 2020-01-11T23:59:59
+2020-01-23 22:33:47,982 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:33:47,982 - nyt_headline_collector - INFO - requesting from 2020-01-11T00:00:00 to 2020-01-11T01:59:59
+2020-01-23 22:33:47,982 - nyt_headline_collector - INFO - requesting from 2020-01-11T02:00:00 to 2020-01-11T03:59:59
+2020-01-23 22:33:47,982 - nyt_headline_collector - INFO - requesting from 2020-01-11T04:00:00 to 2020-01-11T05:59:59
+2020-01-23 22:33:47,982 - nyt_headline_collector - INFO - requesting from 2020-01-11T06:00:00 to 2020-01-11T07:59:59
+2020-01-23 22:33:47,982 - nyt_headline_collector - INFO - requesting from 2020-01-11T08:00:00 to 2020-01-11T09:59:59
+2020-01-23 22:33:47,983 - nyt_headline_collector - INFO - requesting from 2020-01-11T10:00:00 to 2020-01-11T11:59:59
+2020-01-23 22:33:47,983 - nyt_headline_collector - INFO - requesting from 2020-01-11T12:00:00 to 2020-01-11T13:59:59
+2020-01-23 22:33:47,983 - nyt_headline_collector - INFO - requesting from 2020-01-11T14:00:00 to 2020-01-11T15:59:59
+2020-01-23 22:33:47,983 - nyt_headline_collector - INFO - requesting from 2020-01-11T16:00:00 to 2020-01-11T17:59:59
+2020-01-23 22:33:47,983 - nyt_headline_collector - INFO - requesting from 2020-01-11T18:00:00 to 2020-01-11T19:59:59
+2020-01-23 22:33:47,983 - nyt_headline_collector - INFO - requesting from 2020-01-11T20:00:00 to 2020-01-11T21:59:59
+2020-01-23 22:33:47,983 - nyt_headline_collector - INFO - requesting from 2020-01-11T22:00:00 to 2020-01-11T23:59:59
+2020-01-23 22:35:04,960 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi
+2020-01-23 22:35:04,960 - nyt_headline_collector - INFO - requesting from 2020-01-12T00:00:00 to 2020-01-12T01:59:59
+2020-01-23 22:35:04,961 - nyt_headline_collector - INFO - requesting from 2020-01-12T02:00:00 to 2020-01-12T03:59:59
+2020-01-23 22:35:04,961 - nyt_headline_collector - INFO - requesting from 2020-01-12T04:00:00 to 2020-01-12T05:59:59
+2020-01-23 22:35:04,961 - nyt_headline_collector - INFO - requesting from 2020-01-12T06:00:00 to 2020-01-12T07:59:59
+2020-01-23 22:35:04,961 - nyt_headline_collector - INFO - requesting from 2020-01-12T08:00:00 to 2020-01-12T09:59:59
+2020-01-23 22:35:04,962 - nyt_headline_collector - INFO - requesting from 2020-01-12T10:00:00 to 2020-01-12T11:59:59
+2020-01-23 22:35:04,962 - nyt_headline_collector - INFO - requesting from 2020-01-12T12:00:00 to 2020-01-12T13:59:59
+2020-01-23 22:35:04,962 - nyt_headline_collector - INFO - requesting from 2020-01-12T14:00:00 to 2020-01-12T15:59:59
+2020-01-23 22:35:04,962 - nyt_headline_collector - INFO - requesting from 2020-01-12T16:00:00 to 2020-01-12T17:59:59
+2020-01-23 22:35:04,962 - nyt_headline_collector - INFO - requesting from 2020-01-12T18:00:00 to 2020-01-12T19:59:59
+2020-01-23 22:35:04,963 - nyt_headline_collector - INFO - requesting from 2020-01-12T20:00:00 to 2020-01-12T21:59:59
+2020-01-23 22:35:04,963 - nyt_headline_collector - INFO - requesting from 2020-01-12T22:00:00 to 2020-01-12T23:59:59
+>>>>>>> add-nyt-collector

@@ -15,12 +15,25 @@ logging.basicConfig(
     )
 logger = logging.getLogger(__name__)
 
-sources = ["associated-press"]
+sources = ["reuters"]
 store_dir = "/home/will/Projects/headliner/datastore/raw/"
 
 for source in sources:
 
-    back_dates = pd.date_range(start="2020-01-14", end="2020-01-16")
+    back_dates = pd.date_range(start="2020-01-22", end="2020-01-24")
+
+    for back_date in back_dates:
+        print(back_date)
+        get_newsapi_on_date(back_date, intervals=12, source=source)
+        process_source_on_date(back_date, source=source)
+
+
+sources = ["abc-news"]
+store_dir = "/home/will/Projects/headliner/datastore/raw/"
+
+for source in sources:
+
+    back_dates = pd.date_range(start="2020-01-17", end="2020-01-24")
 
     for back_date in back_dates:
         print(back_date)

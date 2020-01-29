@@ -24,5 +24,5 @@ for source in newsapi_sources:
     process_source_on_date(yesterday, source=source)
 
 ### Get NYT from source
-logger.info(f"Retrieving {source} from NYT developer API")
+logger.info(f"Retrieving the-new-york-times from NYT developer API")
 get_nyt_on_date(yesterday)

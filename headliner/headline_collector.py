@@ -39,7 +39,7 @@ def get_newsapi_on_date(date, source="", intervals=4):
         request. By default 6.
     """
 
-    logger.info(f"Retrieving {source} from newsapi.org")
+    logger.info(f"Retrieving {source} from newsapi.org on {date.strftime('%Y-%m-%d')}")
     logger.debug(f"Splitting into {intervals} intervals")
 
     hour_split = 24 / intervals
@@ -51,7 +51,7 @@ def get_newsapi_on_date(date, source="", intervals=4):
         from_datehour_str = begin_date.strftime("%Y-%m-%dT%H:%M:%S")
         to_datehour_str = end_date.strftime("%Y-%m-%dT%H:%M:%S")
 
-        logger.info(f"requesting from {from_datehour_str} to {to_datehour_str}")
+        logger.debug(f"requesting from {from_datehour_str} to {to_datehour_str}")
 
         # get the first set of results for the time period and save
         # use the total_results to calculate the number of pages

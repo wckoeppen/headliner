@@ -42,7 +42,7 @@ def get_nyt_on_date(date, source="the-new-york-times", intervals=12):
     api_result_limit = 10
     api_total_limit = 1000
 
-    logger.info(f"Retrieving {source} from nytapi")
+    logger.info(f"Retrieving {source} from nytapi on {date.strftime('%Y-%m-%d')}")
     logger.debug(f"Splitting into {intervals} intervals")
 
     hour_split = 24 / intervals
@@ -54,7 +54,7 @@ def get_nyt_on_date(date, source="the-new-york-times", intervals=12):
         from_datehour_str = begin_date.strftime("%Y-%m-%dT%H:%M:%S")
         to_datehour_str = end_date.strftime("%Y-%m-%dT%H:%M:%S")
 
-        logger.info(f"requesting from {from_datehour_str} to {to_datehour_str}")
+        logger.debug(f"requesting from {from_datehour_str} to {to_datehour_str}")
 
         page = 0
 

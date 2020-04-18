@@ -9,14 +9,8 @@ This project uses Read the Docs, hosted here:
 
 .. placeholder-for-doc-index
 
-Disclaimer
-----------
-
-🚨 **This package is in the early stages of development.** 🚨
-
 About
 -----
-
 Headliner is a library for downloading, regularizing, and visualizing (eventually) headlines from typical news APIs. It's a personal project meant to serve as a sandbox for learning a variety of new technologies.
 
 Project goals
@@ -24,3 +18,7 @@ Project goals
 - download headlines from various news sources
 - process the results into a consistent format
 - analyze and visualize aspects of the results
+
+Disclaimer
+----------
+This package is in the early stages of development.

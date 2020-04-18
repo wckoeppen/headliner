@@ -1523,3 +1523,5 @@
 2020-04-17 00:05:20,647 - headline_collector - INFO - Retrieving abc-news from newsapi.org on 2020-04-16
 2020-04-17 00:05:25,317 - __main__ - INFO - Retrieving the-new-york-times from NYT developer API
 2020-04-17 00:05:25,317 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi on 2020-04-16
+2020-04-18 00:05:02,260 - __main__ - INFO - Retrieving fox-news from newsapi.org
+2020-04-18 00:05:02,260 - headline_collector - INFO - Retrieving fox-news from newsapi.org on 2020-04-17

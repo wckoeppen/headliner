@@ -1,5 +1,6 @@
 To Do List
 ==========
+Where the hell am I going with this?
 
 - begin prototyping out some visualizations
    - word clouds?

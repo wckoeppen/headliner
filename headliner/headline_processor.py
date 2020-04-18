@@ -2,8 +2,7 @@ import glob
 import json
 import logging
 import os
-from datetime import datetime, timedelta
-
+from datetime import timedelta
 import pandas as pd
 
 logging.basicConfig(

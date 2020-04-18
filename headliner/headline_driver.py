@@ -26,3 +26,4 @@ for source in newsapi_sources:
 ### Get NYT from source
 logger.info(f"Retrieving the-new-york-times from NYT developer API")
 get_nyt_on_date(yesterday)
+process_nytsource_on_date(yesterday)

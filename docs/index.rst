@@ -1,13 +1,11 @@
 .. title:: Home
 
-.. include:: ../README.md
+.. include:: ../README.rst
     :start-after: placeholder-for-doc-index
 
 .. toctree::
     :maxdepth: 2
-    :hidden:
-    :caption: User Guide
 
-    apis.rst
     install.rst
+    apis.rst
     todo.rst

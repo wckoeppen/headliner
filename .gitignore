@@ -1,5 +1,6 @@
 .ipynb_checkpoints/
 .vscode/
 .env
+.idea
 __pycache__
-datastore/raw/*
+#datastore/raw/*

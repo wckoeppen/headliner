@@ -8,7 +8,7 @@
     :hidden:
     :caption: User Guide
 
-    installing.rst
+    installing..rst
     apis.rst
     resources.rst
     todo.rst

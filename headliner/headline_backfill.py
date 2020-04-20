@@ -23,9 +23,9 @@ import pandas as pd
 #         process_source_on_date(back_date, source=source)
 
 ### nyt api
-back_dates = pd.date_range(start="2020-01-22", end="2020-04-16")
+back_dates = pd.date_range(start="2020-04-16", end="2020-04-19")
 
-# get_nyt_on_date(datetime(2020,1,29,0,0))
+get_nyt_on_date(datetime(2020, 4, 17, 0, 0))
 #
 for back_date in back_dates:
     print(back_date)

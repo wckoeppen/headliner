@@ -4,6 +4,7 @@ import logging
 from headline_collector import get_newsapi_on_date
 from headline_processor import process_source_on_date
 from nyt_headline_collector import get_nyt_on_date
+from nyt_headline_processor import process_nytsource_on_date
 
 logging.basicConfig(
     filename='/home/will/Projects/headliner/headliner.log',
@@ -16,7 +17,7 @@ today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
 yesterday = today - timedelta(days=1)
 
 ### Get news api sources
-newsapi_sources = ["fox-news", "msnbc", "the-washington-post", "associated-press", "abc-news"]
+newsapi_sources = ["fox-news", "msnbc", "nbc-news", "the-washington-post", "associated-press", "abc-news", "cnn"]
 
 for source in newsapi_sources:
     logger.info(f"Retrieving {source} from newsapi.org")

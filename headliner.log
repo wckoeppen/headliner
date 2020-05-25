@@ -2096,3 +2096,19 @@
 2020-05-24 00:05:36,458 - headline_collector - INFO - Retrieving cnn from newsapi.org on 2020-05-23
 2020-05-24 00:05:41,685 - __main__ - INFO - Retrieving the-new-york-times from NYT developer API
 2020-05-24 00:05:41,685 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi on 2020-05-23
+2020-05-25 00:05:02,645 - __main__ - INFO - Retrieving fox-news from newsapi.org
+2020-05-25 00:05:02,646 - headline_collector - INFO - Retrieving fox-news from newsapi.org on 2020-05-24
+2020-05-25 00:05:09,801 - __main__ - INFO - Retrieving msnbc from newsapi.org
+2020-05-25 00:05:09,801 - headline_collector - INFO - Retrieving msnbc from newsapi.org on 2020-05-24
+2020-05-25 00:05:15,358 - __main__ - INFO - Retrieving nbc-news from newsapi.org
+2020-05-25 00:05:15,358 - headline_collector - INFO - Retrieving nbc-news from newsapi.org on 2020-05-24
+2020-05-25 00:05:21,054 - __main__ - INFO - Retrieving the-washington-post from newsapi.org
+2020-05-25 00:05:21,054 - headline_collector - INFO - Retrieving the-washington-post from newsapi.org on 2020-05-24
+2020-05-25 00:05:26,440 - __main__ - INFO - Retrieving associated-press from newsapi.org
+2020-05-25 00:05:26,440 - headline_collector - INFO - Retrieving associated-press from newsapi.org on 2020-05-24
+2020-05-25 00:05:31,557 - __main__ - INFO - Retrieving abc-news from newsapi.org
+2020-05-25 00:05:31,557 - headline_collector - INFO - Retrieving abc-news from newsapi.org on 2020-05-24
+2020-05-25 00:05:36,930 - __main__ - INFO - Retrieving cnn from newsapi.org
+2020-05-25 00:05:36,930 - headline_collector - INFO - Retrieving cnn from newsapi.org on 2020-05-24
+2020-05-25 00:05:42,116 - __main__ - INFO - Retrieving the-new-york-times from NYT developer API
+2020-05-25 00:05:42,116 - nyt_headline_collector - INFO - Retrieving the-new-york-times from nytapi on 2020-05-24

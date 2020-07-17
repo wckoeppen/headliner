@@ -14,4 +14,4 @@ ${GIT} add ${REPO_DIR}/headliner.log
 ${GIT} commit -m "daily log"
 
 # push
-${GIT} push origin master
+${GIT} push origin oligarch

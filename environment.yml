@@ -151,5 +151,4 @@ dependencies:
     - requests==2.22.0
     - urllib3==1.25.7
     - yanytapi==2.0.0
-prefix: /home/will/anaconda3/envs/headliner
-
+prefix: /home/will/miniconda3/envs/headliner

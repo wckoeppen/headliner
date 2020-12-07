@@ -6,7 +6,9 @@ NewsAPI.org
 
 This library uses the `NewsAPI.org <https://newsapi.org/>`_ service endpoints using the [newsapi-python](https://github.com/mattlisiv/newsapi-python) package.
 
-The API itself is `very well documented <https://newsapi.org/docs>`_. The free "Developer" plan is limited to 500 requests per day, and it requires attribution near to the implementation. NewsAPI specifically says that the API is throttled by requests, not results. I.e., `"it doesn't matter how many results you get back" <https://newsapi.org/pricing>`_. That may be technically true. However:
+The API itself is `very well documented <https://newsapi.org/docs>`_. Prior to October 2020, the free "Developer" plan was limited to 500 requests per day, and it requires attribution near to the implementation. However, sometime around the end of October 2020, NewsAPI reduced their free version to only allowing 100 requests per day. The paid version is $450/month, which is well beyond the means of a simple personal research project. With the problems outlined below, that effectively killed this project for now.
+
+NewsAPI specifically says that the API is throttled by requests, not results. I.e., `"it doesn't matter how many results you get back" <https://newsapi.org/pricing>`_. That may be technically true. However:
 
 - the results are paginated and the service will only send 20 results back at maximum. This means you need to traverse pages.
 - the developer plan apparently only lets you see the first 100 results from a request. So you cannot see beyond the fifth page. When I requested data from a single source (e.g., ``fox-news``) for a single day, the service said there were 111 results, but the service errors if you try to return results 100-111. This means that you need to request smaller batches (e.g., half days may work) and use the total_results to determine if you missed something.

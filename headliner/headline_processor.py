@@ -45,7 +45,7 @@ def process_source_on_date(date, source=""):
         for filename in file_list:
             with open(filename, "r") as file:
                 to_add = json.load(file)
-                to_add = pd.io.json.json_normalize(to_add['articles'])
+                to_add = pd.json_normalize(to_add['articles'])
             
             results.append(to_add)
 

@@ -3,4 +3,5 @@
 .env
 .idea
 __pycache__
+headliner.log
 datastore/raw/*

@@ -3,24 +3,14 @@ from dotenv import load_dotenv
 from newsapi import NewsApiClient
 import math
 from datetime import datetime, timedelta
-import pytz
 import json
 import logging
-import pandas as pd
-import glob
 
 load_dotenv()
-
-logging.basicConfig(
-    filename='/home/will/Projects/headliner/headliner.log',
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    level=logging.INFO
-    )
 logger = logging.getLogger(__name__)
 
 # turn off requests logging clutter
 logging.getLogger("urllib3").setLevel(logging.WARNING)
-
 
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
 api = NewsApiClient(api_key=NEWSAPI_KEY)

@@ -3,25 +3,16 @@ from dotenv import load_dotenv
 import math
 import time
 from datetime import datetime, timedelta
-import pytz
 import json
 import logging
-import pandas as pd
-import glob
 import requests
 
 load_dotenv()
-
-logging.basicConfig(
-    filename='/home/will/Projects/headliner/headliner.log',
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    level=logging.INFO
-    )
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 # turn off requests logging clutter
 logging.getLogger("urllib3").setLevel(logging.WARNING)
-
 NYT_KEY = os.getenv("NYT_KEY")
 
 def get_nyt_on_date(date, source="the-new-york-times", intervals=12):

@@ -13,9 +13,10 @@ import pandas as pd
 logging.basicConfig(
     filename='/home/will/Projects/headliner/headliner.log',
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    level=logging.INFO
+    level=logging.DEBUG
     )
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 ### Get news api sources
 # newsapi_sources = ["fox"]
@@ -30,10 +31,11 @@ logger = logging.getLogger(__name__)
 #         process_source_on_date(back_date, source=source)
 
 ### nyt api
-back_dates = pd.date_range(start="2020-10-18", end="2020-12-02")
+back_dates = pd.date_range(start="2020-11-17", end="2020-11-25")
 
 #
 for back_date in back_dates:
     print(back_date)
+    logger.debug(f"Working on {back_date}")
     get_nyt_on_date(back_date)
     process_nytsource_on_date(back_date)

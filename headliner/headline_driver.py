@@ -12,6 +12,7 @@ logging.basicConfig(
     level=logging.INFO
     )
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
 yesterday = today - timedelta(days=1)

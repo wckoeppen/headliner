@@ -3,8 +3,6 @@
 GIT='/usr/bin/git'
 REPO_DIR='/Users/wckoeppen/work/projects/headliner'
 
-ECHO ${REPO_DIR}
-
 cd ${REPO_DIR}
 
 # headlines

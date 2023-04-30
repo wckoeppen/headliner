@@ -1,7 +1,9 @@
 #!/bin/sh
 
 GIT='/usr/bin/git'
-REPO_DIR='/home/will/Projects/headliner'
+REPO_DIR='/Users/wckoeppen/work/projects/headliner'
+
+ECHO ${REPO_DIR}
 
 cd ${REPO_DIR}
 

@@ -5,3 +5,6 @@
 __pycache__
 headliner.log
 datastore/raw/*
+.DS_Store
+job.log
+.envrc

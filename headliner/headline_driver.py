@@ -7,7 +7,7 @@ from nyt_headline_collector import get_nyt_on_date
 from nyt_headline_processor import process_nytsource_on_date
 
 logging.basicConfig(
-    filename='/home/will/Projects/headliner/headliner.log',
+    filename='/Users/wckoeppen/work/projects/headliner/headliner.log',
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
     )

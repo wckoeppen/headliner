@@ -11,7 +11,7 @@ import os
 import pandas as pd
 
 logging.basicConfig(
-    filename='/home/will/Projects/headliner/headliner.log',
+    filename='/Users/wckoeppen/work/projects/headliner/headliner.log',
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.DEBUG
     )

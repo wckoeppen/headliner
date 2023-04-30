@@ -67,7 +67,7 @@ def get_nyt_on_date(date, source="the-new-york-times", intervals=12):
             logger.debug("collected data")
 
             output_file = (
-                    f"/home/will/Projects/headliner/datastore/raw/"
+                    f"/Users/wckoeppen/work/projects/headliner/datastore/raw/"
                     f"{source}/{source}-{from_datehour_str}-p{page:03}"
                     f".json"
                 )

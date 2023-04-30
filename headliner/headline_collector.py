@@ -64,7 +64,7 @@ def get_newsapi_on_date(date, source="", intervals=4):
             logger.debug("collected data")
 
             with open(
-                f"/home/will/Projects/headliner/datastore/raw/{source}/{source}-{from_datehour_str}-p{page:03}.json",
+                f"/Users/wckoeppen/work/projects/headliner/datastore/raw/{source}/{source}-{from_datehour_str}-p{page:03}.json",
                 "w"
             ) as file:
                 json.dump(results, file)

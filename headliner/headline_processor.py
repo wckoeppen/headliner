@@ -6,7 +6,7 @@ from datetime import timedelta
 import pandas as pd
 
 logging.basicConfig(
-    filename='/home/will/Projects/headliner/headliner.log',
+    filename='/Users/wckoeppen/work/projects/headliner/headliner.log',
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.DEBUG
     )
@@ -33,8 +33,8 @@ def find_files(base_dir, begin_date, end_date):
 
 def process_source_on_date(date, source=""):
 
-    source_dir = f"/home/will/Projects/headliner/datastore/raw/{source}/"
-    out_dir = f"/home/will/Projects/headliner/datastore/processed/{source}/"
+    source_dir = f"/Users/wckoeppen/work/projects/headliner/datastore/raw/{source}/"
+    out_dir = f"/Users/wckoeppen/work/projects/headliner/datastore/processed/{source}/"
 
     filenames = find_files(source_dir, date, date)
 

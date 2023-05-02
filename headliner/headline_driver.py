@@ -19,13 +19,21 @@ yesterday = today - timedelta(days=1)
 
 ### Get NYT from source
 logger.info(f"Retrieving the-new-york-times from NYT developer API")
-get_nyt_on_date(yesterday)
-process_nytsource_on_date(yesterday)
+try:
+    get_nyt_on_date(yesterday)
+    process_nytsource_on_date(yesterday)
+except:
+    logger.error(f"Couldn't retrieve or process all NYT headlines for f{yesterday}")
+    pass
 
 ### Get news api sources
 newsapi_sources = ["fox-news"] #, "msnbc", "nbc-news", "the-washington-post", "associated-press", "abc-news", "cnn"]
 
 for source in newsapi_sources:
     logger.info(f"Retrieving {source} from newsapi.org")
-    get_newsapi_on_date(yesterday, intervals=12, source=source)
-    process_source_on_date(yesterday, source=source)
+    try:
+        get_newsapi_on_date(yesterday, intervals=12, source=source)
+        process_source_on_date(yesterday, source=source)
+    except:
+        logger.error(f"Couldn't retrieve or process all NewsAPI headlines for f{yesterday}")
+        pass

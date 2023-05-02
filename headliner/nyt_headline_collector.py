@@ -31,7 +31,7 @@ def get_nyt_on_date(date, source="the-new-york-times", intervals=12):
     """
 
     api_result_limit = 10
-    api_total_limit = 1000
+    api_total_limit = 500
 
     logger.info(f"Retrieving {source} from nytapi on {date.strftime('%Y-%m-%d')}")
     logger.debug(f"Splitting into {intervals} intervals")
@@ -76,8 +76,8 @@ def get_nyt_on_date(date, source="the-new-york-times", intervals=12):
                 json.dump(r.json(), file)
                 
             # NYT throttles the rate of return, not the actual
-            # number of returns
-            time.sleep(6)
+            # number of returns. 5 calls per minute.
+            time.sleep(12)
 
             return(r.json()["response"]["meta"]["hits"])
 

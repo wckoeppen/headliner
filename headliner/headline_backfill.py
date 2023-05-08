@@ -19,23 +19,24 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 ### Get news api sources
-# newsapi_sources = ["fox"]
-#
-# for source in newsapi_sources:
-#
-#     back_dates = pd.date_range(start="2020-10-19", end="2020-10-19")
-#
-#     for back_date in back_dates:
-#         logger.info(f"Retrieving {source} from newsapi.org")
-#         get_newsapi_on_date(back_date, intervals=12, source=source)
-#         process_source_on_date(back_date, source=source)
+newsapi_sources = ["fox-news"]
+
+for source in newsapi_sources:
+
+    back_dates = pd.date_range(start="2023-05-06", end="2023-05-06")
+
+    for back_date in back_dates:
+        print(back_date)
+        logger.info(f"Retrieving {source} from newsapi.org")
+        get_newsapi_on_date(back_date, intervals=12, source=source)
+        process_source_on_date(back_date, source=source)
 
 ### nyt api
-back_dates = pd.date_range(start="2020-11-17", end="2020-11-25")
+# back_dates = pd.date_range(start="2023-05-06", end="2023-05-06")
 
 #
-for back_date in back_dates:
-    print(back_date)
-    logger.debug(f"Working on {back_date}")
-    get_nyt_on_date(back_date)
-    process_nytsource_on_date(back_date)
+# for back_date in back_dates:
+#     print(back_date)
+#     logger.debug(f"Working on {back_date}")
+#     get_nyt_on_date(back_date)
+#     process_nytsource_on_date(back_date)
